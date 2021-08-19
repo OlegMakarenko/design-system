@@ -4,6 +4,7 @@
     "description": "Symbol Design System",
     "main": "index.js",
     "dependencies": {
+        "json-to-ts": "^1.7.0",
         "style-dictionary": "^3"
     },
     "devDependencies": {

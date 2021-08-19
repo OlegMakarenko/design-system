@@ -1,0 +1,1599 @@
+{
+  "color": {
+    "darkmode": {
+      "bg": {
+        "gray": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Main body sections",
+          "value": "rgba(34, 28, 49, 1)",
+          "type": "color"
+        },
+        "dark": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Main body section option",
+          "value": "rgba(27, 10, 41, 1)",
+          "type": "color"
+        },
+        "navbar": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Navbar color",
+          "value": "rgba(0, 0, 0, 1)",
+          "type": "color"
+        },
+        "footer": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Footer Color",
+          "value": "rgba(26, 26, 26, 1)",
+          "type": "color"
+        },
+        "form": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Form background color",
+          "value": "rgba(241, 243, 244, 1)",
+          "type": "color"
+        },
+        "card": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Card background color",
+          "value": "rgba(255, 255, 255, 0.15)",
+          "type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Body text",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "title": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Use on titles",
+          "value": "rgba(179, 42, 249, 1)",
+          "type": "color"
+        },
+        "navbar_items": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Text color for navbar links",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "learn_more": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Use for buttons that don't have a background box",
+          "value": "rgba(39, 197, 243, 1)",
+          "type": "color"
+        },
+        "learnmore_large": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Larger Learn More or buttons without background box",
+          "value": "rgba(39, 197, 243, 1)",
+          "type": "color"
+        },
+        "footer": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Footer text",
+          "value": "rgba(255, 255, 255, 0.7)",
+          "type": "color"
+        },
+        "subtitle": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Use on subtitles and labels",
+          "value": "rgba(255, 255, 255, 0.6)",
+          "type": "color"
+        },
+        "form": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Form text",
+          "value": "rgba(51, 51, 51, 1)",
+          "type": "color"
+        }
+      },
+      "logo": {
+        "bg": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Logo background color ",
+          "value": "rgba(179, 42, 249, 1)",
+          "type": "color"
+        },
+        "fg": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Logo foreground color",
+          "value": "rgba(26, 26, 26, 1)",
+          "type": "color"
+        },
+        "text": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color of the word Symbol",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        }
+      },
+      "button": {
+        "bg": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Button background color",
+          "value": "rgba(39, 197, 243, 1)",
+          "type": "color"
+        },
+        "text": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Primary button text color",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "text_unbounded": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Unbounded button text color",
+          "value": "rgba(39, 197, 243, 1)",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "highlight": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Brightest part of icon",
+          "value": "rgba(39, 197, 243, 1)",
+          "type": "color"
+        },
+        "secondary": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Secondary color",
+          "value": "rgba(179, 42, 249, 1)",
+          "type": "color"
+        },
+        "base": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Base color",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        }
+      },
+      "data": {
+        "color1": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 1",
+          "value": "rgba(179, 42, 249, 1)",
+          "type": "color"
+        },
+        "color2": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 2",
+          "value": "rgba(88, 116, 255, 1)",
+          "type": "color"
+        },
+        "color3": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 3",
+          "value": "rgba(0, 153, 255, 1)",
+          "type": "color"
+        },
+        "color4": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 4",
+          "value": "rgba(0, 179, 255, 1)",
+          "type": "color"
+        },
+        "color5": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 5",
+          "value": "rgba(39, 197, 243, 1)",
+          "type": "color"
+        }
+      },
+      "semantic": {
+        "bad": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Warning (bad, stop, halt, error)",
+          "value": "rgba(255, 153, 153, 1)",
+          "type": "color"
+        },
+        "caution": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Caution (possible error)",
+          "value": "rgba(247, 192, 110, 1)",
+          "type": "color"
+        },
+        "good": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Good things",
+          "value": "rgba(179, 230, 179, 1)",
+          "type": "color"
+        },
+        "neutral": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Neutral",
+          "value": "rgba(199, 206, 209, 1)",
+          "type": "color"
+        },
+        "info": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Info",
+          "value": "rgba(158, 209, 250, 1)",
+          "type": "color"
+        }
+      }
+    },
+    "lightmode": {
+      "bg": {
+        "gray": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Option 1 for main body sections",
+          "value": "rgba(242, 240, 244, 1)",
+          "type": "color"
+        },
+        "light": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Option 2 for main body sections",
+          "value": "rgba(250, 249, 251, 1)",
+          "type": "color"
+        },
+        "navbar": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Navbar color",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "footer": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Footer Color",
+          "value": "rgba(204, 204, 204, 1)",
+          "type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Body text",
+          "value": "rgba(51, 51, 51, 1)",
+          "type": "color"
+        },
+        "title": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Title color",
+          "value": "rgba(136, 0, 204, 1)",
+          "type": "color"
+        },
+        "navbar_items": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Text color for navbar links",
+          "value": "rgba(26, 26, 26, 1)",
+          "type": "color"
+        },
+        "learn_more": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Use for buttons that don't have a background box",
+          "value": "rgba(136, 0, 204, 1)",
+          "type": "color"
+        },
+        "learnmore_large": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Larger Learn More or buttons without background box",
+          "value": "rgba(136, 0, 204, 1)",
+          "type": "color"
+        },
+        "footer": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Footer text",
+          "value": "rgba(51, 51, 51, 1)",
+          "type": "color"
+        },
+        "subtitle": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Use on subtitles",
+          "value": "rgba(0, 0, 0, 0.6)",
+          "type": "color"
+        }
+      },
+      "logo": {
+        "bg": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Logo background color ",
+          "value": "rgba(179, 42, 249, 1)",
+          "type": "color"
+        },
+        "fg": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Logo foreground color",
+          "value": "rgba(77, 77, 77, 1)",
+          "type": "color"
+        },
+        "text": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color of the word Symbol",
+          "value": "rgba(26, 26, 26, 1)",
+          "type": "color"
+        }
+      },
+      "button": {
+        "bg": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Button background color",
+          "value": "rgba(136, 0, 204, 1)",
+          "type": "color"
+        },
+        "text": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Button foreground color",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "highlight": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Brightest part of icon",
+          "value": "rgba(179, 42, 249, 1)",
+          "type": "color"
+        },
+        "secondary": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Secondary color",
+          "value": "rgba(136, 0, 204, 1)",
+          "type": "color"
+        },
+        "base": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Base color",
+          "value": "rgba(26, 26, 26, 1)",
+          "type": "color"
+        }
+      },
+      "data": {
+        "color1": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 1",
+          "value": "rgba(179, 42, 249, 1)",
+          "type": "color"
+        },
+        "color2": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 2",
+          "value": "rgba(88, 116, 255, 1)",
+          "type": "color"
+        },
+        "color3": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 3",
+          "value": "rgba(0, 153, 255, 1)",
+          "type": "color"
+        },
+        "color4": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 4",
+          "value": "rgba(0, 179, 255, 1)",
+          "type": "color"
+        },
+        "color5": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Color 5",
+          "value": "rgba(39, 197, 243, 1)",
+          "type": "color"
+        }
+      },
+      "semantic": {
+        "bad": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Warning (bad, stop, halt, error)",
+          "value": "rgba(204, 0, 0, 1)",
+          "type": "color"
+        },
+        "caution": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Caution (possible error)",
+          "value": "rgba(255, 153, 0, 1)",
+          "type": "color"
+        },
+        "good": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Good things",
+          "value": "rgba(40, 115, 38, 1)",
+          "type": "color"
+        },
+        "neutral": {
+          "category": "color",
+          "exportKey": "color",
+          "value": "rgba(92, 105, 112, 1)",
+          "type": "color"
+        },
+        "info": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Information",
+          "value": "rgba(64, 134, 191, 1)",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "grid": {
+    "xsm_320px": {
+      "category": "grid",
+      "exportKey": "grid",
+      "pattern": {
+        "value": "columns",
+        "type": "string"
+      },
+      "gutterSize": {
+        "value": 8,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "alignment": {
+        "value": "stretch",
+        "type": "string"
+      },
+      "count": {
+        "value": 8,
+        "type": "number"
+      },
+      "offset": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "xm_375px": {
+      "category": "grid",
+      "exportKey": "grid",
+      "pattern": {
+        "value": "columns",
+        "type": "string"
+      },
+      "gutterSize": {
+        "value": 8,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "alignment": {
+        "value": "stretch",
+        "type": "string"
+      },
+      "count": {
+        "value": 8,
+        "type": "number"
+      },
+      "offset": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "md_576px": {
+      "category": "grid",
+      "exportKey": "grid",
+      "pattern": {
+        "value": "columns",
+        "type": "string"
+      },
+      "gutterSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "alignment": {
+        "value": "stretch",
+        "type": "string"
+      },
+      "count": {
+        "value": 12,
+        "type": "number"
+      },
+      "offset": {
+        "value": 46,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "xl_1200px": {
+      "category": "grid",
+      "exportKey": "grid",
+      "pattern": {
+        "value": "columns",
+        "type": "string"
+      },
+      "gutterSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "alignment": {
+        "value": "stretch",
+        "type": "string"
+      },
+      "count": {
+        "value": 12,
+        "type": "number"
+      },
+      "offset": {
+        "value": 104,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "lg_992px": {
+      "category": "grid",
+      "exportKey": "grid",
+      "pattern": {
+        "value": "columns",
+        "type": "string"
+      },
+      "gutterSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "alignment": {
+        "value": "stretch",
+        "type": "string"
+      },
+      "count": {
+        "value": 12,
+        "type": "number"
+      },
+      "offset": {
+        "value": 48,
+        "type": "number",
+        "unit": "pixel"
+      }
+    }
+  },
+  "font": {
+    "title_ultra": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 180,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": -2,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 100,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "title_super": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 108,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": -2,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 100,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "h1": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 64,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": -2,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 100,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "h2": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 40,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": -2,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "normal",
+        "type": "string",
+        "unit": "auto"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "h3": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "normal",
+        "type": "string",
+        "unit": "auto"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "subtitle": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 500,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Medium",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "normal",
+        "type": "string",
+        "unit": "auto"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "body": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Protipo",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 150,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 15,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "body_bold": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Protipo",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 150,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 15,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "body_small": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 15,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Protipo",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 150,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "link": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Protipo",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 150,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 15,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "label": {
+      "category": "font",
+      "exportKey": "font",
+      "comment": "Good for LEARN MORE, and small titles/labels",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Carbon",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 120,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "caption": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 18,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Carbon",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 120,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 10,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
+    "button_bounded": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 2,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 100,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "button_unbounded": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Carbon",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 700,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Bold",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 2,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 100,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "uppercase",
+        "type": "string"
+      }
+    },
+    "body_hero": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Protipo",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 150,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 17,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    }
+  },
+  "effect": {
+    "glow": {
+      "yellow": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 28,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(218, 254, 0, 1)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "fusia": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 28,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(255, 7, 253, 1)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "large buttons": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 12,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(6, 235, 236, 1)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "blue": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 28,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(110, 215, 247, 1)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      }
+    }
+  }
+}
