@@ -4,13 +4,14 @@ const getConfig = require('./config');
 const designTokens = require('./tokens/design-tokens.json');
 const modes = ['all', 'lightmode', 'darkmode'];
 
-
+console.log('Creating "tokens/lightmode-tokens.json"');
 fs.writeFileSync('tokens/lightmode-tokens.json', JSON.stringify({
     color: {
         ...designTokens.color.lightmode
     }
 }));
 
+console.log('Creating "tokens/darkmode-tokens.json"');
 fs.writeFileSync('tokens/darkmode-tokens.json', JSON.stringify({
     color: {
         ...designTokens.color.darkmode
@@ -65,8 +66,9 @@ StyleDictionary.registerTransformGroup({
 });
 
 
-modes.forEach(mode => 
+modes.forEach(mode => {
+    console.log('Building styles from tokens: ' + mode);
     StyleDictionary
         .extend(getConfig(mode))
         .buildAllPlatforms()
-);
+});
