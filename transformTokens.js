@@ -1,5 +1,21 @@
-const StyleDictionary = require('style-dictionary')
-const baseConfig = require('./config.json')
+const fs = require('fs');
+const StyleDictionary = require('style-dictionary');
+const getConfig = require('./config');
+const designTokens = require('./tokens/design-tokens.json');
+const modes = ['all', 'lightmode', 'darkmode'];
+
+
+fs.writeFileSync('tokens/lightmode-tokens.json', JSON.stringify({
+    color: {
+        ...designTokens.color.lightmode
+    }
+}));
+
+fs.writeFileSync('tokens/darkmode-tokens.json', JSON.stringify({
+    color: {
+        ...designTokens.color.darkmode
+    }
+}));
 
 
 StyleDictionary.registerTransform({
@@ -11,7 +27,7 @@ StyleDictionary.registerTransform({
     transformer: token => {
         return `${token.value}px`
     },
-})
+});
 
 StyleDictionary.registerTransform({
     name: 'size/percent',
@@ -22,7 +38,7 @@ StyleDictionary.registerTransform({
     transformer: token => {
         return `${token.value}%`
     },
-})
+});
 
 StyleDictionary.registerTransformGroup({
     name: 'custom/css',
@@ -30,7 +46,7 @@ StyleDictionary.registerTransformGroup({
         'size/px',
         'size/percent',
     ]),
-})
+});
 
 StyleDictionary.registerTransformGroup({
     name: 'custom/less',
@@ -38,7 +54,7 @@ StyleDictionary.registerTransformGroup({
         'size/px',
         'size/percent',
     ]),
-})
+});
 
 StyleDictionary.registerTransformGroup({
     name: 'custom/scss',
@@ -46,8 +62,11 @@ StyleDictionary.registerTransformGroup({
         'size/px',
         'size/percent',
     ]),
-})
+});
 
-const StyleDictionaryExtended = StyleDictionary.extend(baseConfig)
 
-StyleDictionaryExtended.buildAllPlatforms()
+modes.forEach(mode => 
+    StyleDictionary
+        .extend(getConfig(mode))
+        .buildAllPlatforms()
+);
