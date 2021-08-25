@@ -72,3 +72,12 @@ modes.forEach(mode => {
         .extend(getConfig(mode))
         .buildAllPlatforms()
 });
+
+const cssFiles = {
+    lightmode: fs.readFileSync('build/css/lightmode', 'utf8'),
+    darkmode: fs.readFileSync('build/css/darkmode', 'utf8'),
+};
+
+cssFiles
+    .map((css, mode) => css.substr(0, 5) + `[data-theme='${mode}']` + css.substr(5))
+    .forEach((css, mode) => fs.writeFileSync(`build/css/'${mode}.css`, css));
