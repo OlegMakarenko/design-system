@@ -1,4 +1,4 @@
-:root {
+:root[data-theme='darkmode'] {
   --color-bg-gray: #221c31; /* Main body sections */
   --color-bg-dark: #1b0a29; /* Main body section option */
   --color-bg-navbar: #000000; /* Navbar color */

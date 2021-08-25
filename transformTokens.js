@@ -74,10 +74,14 @@ modes.forEach(mode => {
 });
 
 const cssFiles = {
-    lightmode: fs.readFileSync('build/css/lightmode', 'utf8'),
-    darkmode: fs.readFileSync('build/css/darkmode', 'utf8'),
+    lightmode: fs.readFileSync('build/css/lightmode.css', 'utf8'),
+    darkmode: fs.readFileSync('build/css/darkmode.css', 'utf8'),
 };
 
-cssFiles
-    .map((css, mode) => css.substr(0, 5) + `[data-theme='${mode}']` + css.substr(5))
-    .forEach((css, mode) => fs.writeFileSync(`build/css/'${mode}.css`, css));
+Object.entries(cssFiles)
+    .forEach(([mode, css]) => 
+        fs.writeFileSync(
+            `build/css/${mode}.css`, 
+            css.substr(0, 5) + `[data-theme='${mode}']` + css.substr(5)
+        )
+    )
