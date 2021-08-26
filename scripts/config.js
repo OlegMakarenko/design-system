@@ -1,4 +1,4 @@
-module.exports = function getConfig(mode) {
+function getConfig(mode) {
     let source;
     let destination;
     
@@ -160,3 +160,5 @@ module.exports = function getConfig(mode) {
 
     return config;
 }
+
+module.exports = { getConfig };
