@@ -19,6 +19,10 @@
   --color-button-bg: #27c5f3; /* Button background color */
   --color-button-text: #ffffff; /* Primary button text color */
   --color-button-text-unbounded: #27c5f3; /* Unbounded button text color */
+  --color-button-bg-hover: #0b96c1; /* Button hover background */
+  --color-button-bg-disabled: #cccccc; /* Disabled button background */
+  --color-button-text-disabled: #333333; /* Disabled button text */
+  --color-button-bg-secondary: #cff2fc; /* Secondary button background color */
   --color-icon-highlight: #27c5f3; /* Brightest part of icon */
   --color-icon-secondary: #b32af9; /* Secondary color */
   --color-icon-base: #ffffff; /* Base color */

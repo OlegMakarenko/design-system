@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 08:06:42 GMT
+// Generated on Thu, 26 Aug 2021 14:01:21 GMT
 
 
 import UIKit
@@ -40,6 +40,14 @@ public enum StyleDictionarySize {
     public static let buttonBoundedLineHeight = "100"
     public static let buttonBoundedParagraphIndent = "0"
     public static let buttonBoundedParagraphSpacing = "0"
+    public static let buttonDefaultOffsetX = 0
+    public static let buttonDefaultOffsetY = 6
+    public static let buttonDefaultRadius = 6
+    public static let buttonDefaultSpread = -4
+    public static let buttonHoverOffsetX = 0
+    public static let buttonHoverOffsetY = 8
+    public static let buttonHoverRadius = 10
+    public static let buttonHoverSpread = -4
     public static let buttonUnboundedFontSize = "24"
     public static let buttonUnboundedFontWeight = "700"
     public static let buttonUnboundedLetterSpacing = "2"
@@ -60,10 +68,14 @@ public enum StyleDictionarySize {
     public static let glowFusiaOffsetY = 0
     public static let glowFusiaRadius = 28
     public static let glowFusiaSpread = 0
-    public static let glowLargeButtonsOffsetX = 0
-    public static let glowLargeButtonsOffsetY = 0
-    public static let glowLargeButtonsRadius = 12
-    public static let glowLargeButtonsSpread = 0
+    public static let glowLargeIconsDarkmodeOffsetX = 0
+    public static let glowLargeIconsDarkmodeOffsetY = 0
+    public static let glowLargeIconsDarkmodeRadius = 12
+    public static let glowLargeIconsDarkmodeSpread = 0
+    public static let glowLargeIconsLightmodeOffsetX = 0
+    public static let glowLargeIconsLightmodeOffsetY = 0
+    public static let glowLargeIconsLightmodeRadius = 12
+    public static let glowLargeIconsLightmodeSpread = 0
     public static let glowYellowOffsetX = 0
     public static let glowYellowOffsetY = 0
     public static let glowYellowRadius = 28
@@ -102,6 +114,9 @@ public enum StyleDictionarySize {
     public static let md576pxCount = 12
     public static let md576pxGutterSize = 16
     public static let md576pxOffset = 46
+    public static let patternsBluegradientOpacity = 1
+    public static let patternsBluegradientStops0Position = 0
+    public static let patternsBluegradientStops1Position = 1
     public static let subtitleFontSize = "24"
     public static let subtitleFontWeight = "500"
     public static let subtitleLetterSpacing = "0"

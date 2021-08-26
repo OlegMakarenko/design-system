@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 08:06:41 GMT
+// Generated on Thu, 26 Aug 2021 14:01:21 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -30,6 +30,10 @@ ColorDarkmodeLogoText,
 ColorDarkmodeButtonBg,
 ColorDarkmodeButtonText,
 ColorDarkmodeButtonTextUnbounded,
+ColorDarkmodeButtonBgHover,
+ColorDarkmodeButtonBgDisabled,
+ColorDarkmodeButtonTextDisabled,
+ColorDarkmodeButtonBgSecondary,
 ColorDarkmodeIconHighlight,
 ColorDarkmodeIconSecondary,
 ColorDarkmodeIconBase,
@@ -47,6 +51,8 @@ ColorLightmodeBgGray,
 ColorLightmodeBgLight,
 ColorLightmodeBgNavbar,
 ColorLightmodeBgFooter,
+ColorLightmodeBgForm,
+ColorLightmodeBgCard,
 ColorLightmodeTextBody,
 ColorLightmodeTextTitle,
 ColorLightmodeTextNavbarItems,
@@ -54,11 +60,17 @@ ColorLightmodeTextLearnMore,
 ColorLightmodeTextLearnmoreLarge,
 ColorLightmodeTextFooter,
 ColorLightmodeTextSubtitle,
+ColorLightmodeTextForm,
 ColorLightmodeLogoBg,
 ColorLightmodeLogoFg,
 ColorLightmodeLogoText,
 ColorLightmodeButtonBg,
 ColorLightmodeButtonText,
+ColorLightmodeButtonTextUnbounded,
+ColorLightmodeButtonBgHover,
+ColorLightmodeButtonBgDisabled,
+ColorLightmodeButtonTextDisabled,
+ColorLightmodeButtonBgSecondary,
 ColorLightmodeIconHighlight,
 ColorLightmodeIconSecondary,
 ColorLightmodeIconBase,
@@ -72,10 +84,15 @@ ColorLightmodeSemanticCaution,
 ColorLightmodeSemanticGood,
 ColorLightmodeSemanticNeutral,
 ColorLightmodeSemanticInfo,
+GradientPatternsBluegradientStops0Color,
+GradientPatternsBluegradientStops1Color,
 EffectGlowYellowColor,
 EffectGlowFusiaColor,
-EffectGlowLargeButtonsColor,
-EffectGlowBlueColor
+EffectGlowBlueColor,
+EffectGlowLargeIconsLightmodeColor,
+EffectGlowLargeIconsDarkmodeColor,
+EffectButtonHoverColor,
+EffectButtonDefaultColor
 };
 
 @interface StyleDictionaryColor : NSObject

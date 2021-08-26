@@ -19,6 +19,10 @@
   --color-darkmode-button-bg: #27c5f3; /* Button background color */
   --color-darkmode-button-text: #ffffff; /* Primary button text color */
   --color-darkmode-button-text-unbounded: #27c5f3; /* Unbounded button text color */
+  --color-darkmode-button-bg-hover: #0b96c1; /* Button hover background */
+  --color-darkmode-button-bg-disabled: #cccccc; /* Disabled button background */
+  --color-darkmode-button-text-disabled: #333333; /* Disabled button text */
+  --color-darkmode-button-bg-secondary: #cff2fc; /* Secondary button background color */
   --color-darkmode-icon-highlight: #27c5f3; /* Brightest part of icon */
   --color-darkmode-icon-secondary: #b32af9; /* Secondary color */
   --color-darkmode-icon-base: #ffffff; /* Base color */
@@ -36,18 +40,26 @@
   --color-lightmode-bg-light: #faf9fb; /* Option 2 for main body sections */
   --color-lightmode-bg-navbar: #ffffff; /* Navbar color */
   --color-lightmode-bg-footer: #cccccc; /* Footer Color */
+  --color-lightmode-bg-form: #f1f3f4; /* Form item background color (textfield) */
+  --color-lightmode-bg-card: rgba(0, 0, 0, 0.15); /* Card background color */
   --color-lightmode-text-body: #333333; /* Body text */
-  --color-lightmode-text-title: #8800cc; /* Title color */
+  --color-lightmode-text-title: #064b60; /* Title color */
   --color-lightmode-text-navbar-items: #1a1a1a; /* Text color for navbar links */
   --color-lightmode-text-learn-more: #8800cc; /* Use for buttons that don't have a background box */
   --color-lightmode-text-learnmore-large: #8800cc; /* Larger Learn More or buttons without background box */
   --color-lightmode-text-footer: #333333; /* Footer text */
   --color-lightmode-text-subtitle: rgba(0, 0, 0, 0.6); /* Use on subtitles */
+  --color-lightmode-text-form: #333333; /* Form text */
   --color-lightmode-logo-bg: #b32af9; /* Logo background color  */
   --color-lightmode-logo-fg: #4d4d4d; /* Logo foreground color */
   --color-lightmode-logo-text: #1a1a1a; /* Color of the word Symbol */
   --color-lightmode-button-bg: #8800cc; /* Button background color */
   --color-lightmode-button-text: #ffffff; /* Button foreground color */
+  --color-lightmode-button-text-unbounded: #8800cc; /* Button text without border */
+  --color-lightmode-button-bg-hover: #440066; /* Button hover background */
+  --color-lightmode-button-bg-disabled: #cccccc; /* Disabled button background */
+  --color-lightmode-button-text-disabled: #333333; /* Disabled button text */
+  --color-lightmode-button-bg-secondary: #eeccff; /* Secondary button background color */
   --color-lightmode-icon-highlight: #b32af9; /* Brightest part of icon */
   --color-lightmode-icon-secondary: #8800cc; /* Secondary color */
   --color-lightmode-icon-base: #1a1a1a; /* Base color */
@@ -61,6 +73,12 @@
   --color-lightmode-semantic-good: #287326; /* Good things */
   --color-lightmode-semantic-neutral: #5c6970;
   --color-lightmode-semantic-info: #4086bf; /* Information */
+  --gradient-patterns-bluegradient-gradient-type: linear;
+  --gradient-patterns-bluegradient-stops-0-position: 0;
+  --gradient-patterns-bluegradient-stops-0-color: rgba(26, 201, 255, 1);
+  --gradient-patterns-bluegradient-stops-1-position: 1;
+  --gradient-patterns-bluegradient-stops-1-color: rgba(0, 255, 255, 1);
+  --gradient-patterns-bluegradient-opacity: 1;
   --grid-xsm-320px-pattern: columns;
   --grid-xsm-320px-gutter-size: 8px;
   --grid-xsm-320px-alignment: stretch;
@@ -158,6 +176,18 @@
   --font-subtitle-paragraph-indent: 0;
   --font-subtitle-paragraph-spacing: 0;
   --font-subtitle-text-case: uppercase;
+  --font-body-hero-font-size: 20px;
+  --font-body-hero-text-decoration: none;
+  --font-body-hero-font-family: Protipo;
+  --font-body-hero-font-weight: 400;
+  --font-body-hero-font-style: normal;
+  --font-body-hero-font-stretch: normal;
+  --font-body-hero-font-style-old: Regular;
+  --font-body-hero-letter-spacing: 0;
+  --font-body-hero-line-height: 150%;
+  --font-body-hero-paragraph-indent: 0;
+  --font-body-hero-paragraph-spacing: 17px;
+  --font-body-hero-text-case: none;
   --font-body-font-size: 18px;
   --font-body-text-decoration: none;
   --font-body-font-family: Protipo;
@@ -229,7 +259,7 @@
   --font-caption-line-height: 120%;
   --font-caption-paragraph-indent: 0;
   --font-caption-paragraph-spacing: 10px;
-  --font-caption-text-case: none;
+  --font-caption-text-case: uppercase;
   --font-button-bounded-font-size: 20px;
   --font-button-bounded-text-decoration: none;
   --font-button-bounded-font-family: Roboto;
@@ -254,18 +284,6 @@
   --font-button-unbounded-paragraph-indent: 0;
   --font-button-unbounded-paragraph-spacing: 0;
   --font-button-unbounded-text-case: uppercase;
-  --font-body-hero-font-size: 20px;
-  --font-body-hero-text-decoration: none;
-  --font-body-hero-font-family: Protipo;
-  --font-body-hero-font-weight: 400;
-  --font-body-hero-font-style: normal;
-  --font-body-hero-font-stretch: normal;
-  --font-body-hero-font-style-old: Regular;
-  --font-body-hero-letter-spacing: 0;
-  --font-body-hero-line-height: 150%;
-  --font-body-hero-paragraph-indent: 0;
-  --font-body-hero-paragraph-spacing: 17px;
-  --font-body-hero-text-case: none;
   --effect-glow-yellow-type: dropShadow;
   --effect-glow-yellow-radius: 28px;
   --effect-glow-yellow-color: rgba(218, 254, 0, 1);
@@ -278,18 +296,36 @@
   --effect-glow-fusia-offset-x: 0;
   --effect-glow-fusia-offset-y: 0;
   --effect-glow-fusia-spread: 0;
-  --effect-glow-large-buttons-type: dropShadow;
-  --effect-glow-large-buttons-radius: 12px;
-  --effect-glow-large-buttons-color: rgba(6, 235, 236, 1);
-  --effect-glow-large-buttons-offset-x: 0;
-  --effect-glow-large-buttons-offset-y: 0;
-  --effect-glow-large-buttons-spread: 0;
   --effect-glow-blue-type: dropShadow;
   --effect-glow-blue-radius: 28px;
   --effect-glow-blue-color: rgba(110, 215, 247, 1);
   --effect-glow-blue-offset-x: 0;
   --effect-glow-blue-offset-y: 0;
   --effect-glow-blue-spread: 0;
+  --effect-glow-large-icons-lightmode-type: dropShadow;
+  --effect-glow-large-icons-lightmode-radius: 12px;
+  --effect-glow-large-icons-lightmode-color: rgba(39, 197, 243, 1);
+  --effect-glow-large-icons-lightmode-offset-x: 0;
+  --effect-glow-large-icons-lightmode-offset-y: 0;
+  --effect-glow-large-icons-lightmode-spread: 0;
+  --effect-glow-large-icons-darkmode-type: dropShadow;
+  --effect-glow-large-icons-darkmode-radius: 12px;
+  --effect-glow-large-icons-darkmode-color: rgba(179, 42, 249, 1);
+  --effect-glow-large-icons-darkmode-offset-x: 0;
+  --effect-glow-large-icons-darkmode-offset-y: 0;
+  --effect-glow-large-icons-darkmode-spread: 0;
+  --effect-button-hover-type: dropShadow;
+  --effect-button-hover-radius: 10px;
+  --effect-button-hover-color: rgba(0, 0, 0, 0.1);
+  --effect-button-hover-offset-x: 0;
+  --effect-button-hover-offset-y: 8px;
+  --effect-button-hover-spread: -4px;
+  --effect-button-default-type: dropShadow;
+  --effect-button-default-radius: 6px;
+  --effect-button-default-color: rgba(0, 0, 0, 0.15);
+  --effect-button-default-offset-x: 0;
+  --effect-button-default-offset-y: 6px;
+  --effect-button-default-spread: -4px;
 }
 
 :root[data-theme='lightmode'] {
@@ -297,18 +333,26 @@
   --color-bg-light: #faf9fb; /* Option 2 for main body sections */
   --color-bg-navbar: #ffffff; /* Navbar color */
   --color-bg-footer: #cccccc; /* Footer Color */
+  --color-bg-form: #f1f3f4; /* Form item background color (textfield) */
+  --color-bg-card: rgba(0, 0, 0, 0.15); /* Card background color */
   --color-text-body: #333333; /* Body text */
-  --color-text-title: #8800cc; /* Title color */
+  --color-text-title: #064b60; /* Title color */
   --color-text-navbar-items: #1a1a1a; /* Text color for navbar links */
   --color-text-learn-more: #8800cc; /* Use for buttons that don't have a background box */
   --color-text-learnmore-large: #8800cc; /* Larger Learn More or buttons without background box */
   --color-text-footer: #333333; /* Footer text */
   --color-text-subtitle: rgba(0, 0, 0, 0.6); /* Use on subtitles */
+  --color-text-form: #333333; /* Form text */
   --color-logo-bg: #b32af9; /* Logo background color  */
   --color-logo-fg: #4d4d4d; /* Logo foreground color */
   --color-logo-text: #1a1a1a; /* Color of the word Symbol */
   --color-button-bg: #8800cc; /* Button background color */
   --color-button-text: #ffffff; /* Button foreground color */
+  --color-button-text-unbounded: #8800cc; /* Button text without border */
+  --color-button-bg-hover: #440066; /* Button hover background */
+  --color-button-bg-disabled: #cccccc; /* Disabled button background */
+  --color-button-text-disabled: #333333; /* Disabled button text */
+  --color-button-bg-secondary: #eeccff; /* Secondary button background color */
   --color-icon-highlight: #b32af9; /* Brightest part of icon */
   --color-icon-secondary: #8800cc; /* Secondary color */
   --color-icon-base: #1a1a1a; /* Base color */
@@ -345,6 +389,10 @@
   --color-button-bg: #27c5f3; /* Button background color */
   --color-button-text: #ffffff; /* Primary button text color */
   --color-button-text-unbounded: #27c5f3; /* Unbounded button text color */
+  --color-button-bg-hover: #0b96c1; /* Button hover background */
+  --color-button-bg-disabled: #cccccc; /* Disabled button background */
+  --color-button-text-disabled: #333333; /* Disabled button text */
+  --color-button-bg-secondary: #cff2fc; /* Secondary button background color */
   --color-icon-highlight: #27c5f3; /* Brightest part of icon */
   --color-icon-secondary: #b32af9; /* Secondary color */
   --color-icon-base: #ffffff; /* Base color */

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 08:06:42 GMT
+// Generated on Thu, 26 Aug 2021 14:01:21 GMT
 
 
 import UIKit
@@ -17,7 +17,11 @@ public class StyleDictionary {
     public static let colorDarkmodeBgGray = UIColor(red: 0.133, green: 0.110, blue: 0.192, alpha: 1) /* Main body sections */
     public static let colorDarkmodeBgNavbar = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1) /* Navbar color */
     public static let colorDarkmodeButtonBg = UIColor(red: 0.153, green: 0.773, blue: 0.953, alpha: 1) /* Button background color */
+    public static let colorDarkmodeButtonBgDisabled = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1) /* Disabled button background */
+    public static let colorDarkmodeButtonBgHover = UIColor(red: 0.043, green: 0.588, blue: 0.757, alpha: 1) /* Button hover background */
+    public static let colorDarkmodeButtonBgSecondary = UIColor(red: 0.812, green: 0.949, blue: 0.988, alpha: 1) /* Secondary button background color */
     public static let colorDarkmodeButtonText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /* Primary button text color */
+    public static let colorDarkmodeButtonTextDisabled = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1) /* Disabled button text */
     public static let colorDarkmodeButtonTextUnbounded = UIColor(red: 0.153, green: 0.773, blue: 0.953, alpha: 1) /* Unbounded button text color */
     public static let colorDarkmodeDataColor1 = UIColor(red: 0.702, green: 0.165, blue: 0.976, alpha: 1) /* Color 1 */
     public static let colorDarkmodeDataColor2 = UIColor(red: 0.345, green: 0.455, blue: 1.000, alpha: 1) /* Color 2 */
@@ -43,12 +47,19 @@ public class StyleDictionary {
     public static let colorDarkmodeTextNavbarItems = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /* Text color for navbar links */
     public static let colorDarkmodeTextSubtitle = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.6) /* Use on subtitles and labels */
     public static let colorDarkmodeTextTitle = UIColor(red: 0.702, green: 0.165, blue: 0.976, alpha: 1) /* Use on titles */
+    public static let colorLightmodeBgCard = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.15) /* Card background color */
     public static let colorLightmodeBgFooter = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1) /* Footer Color */
+    public static let colorLightmodeBgForm = UIColor(red: 0.945, green: 0.953, blue: 0.957, alpha: 1) /* Form item background color (textfield) */
     public static let colorLightmodeBgGray = UIColor(red: 0.949, green: 0.941, blue: 0.957, alpha: 1) /* Option 1 for main body sections */
     public static let colorLightmodeBgLight = UIColor(red: 0.980, green: 0.976, blue: 0.984, alpha: 1) /* Option 2 for main body sections */
     public static let colorLightmodeBgNavbar = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /* Navbar color */
     public static let colorLightmodeButtonBg = UIColor(red: 0.533, green: 0.000, blue: 0.800, alpha: 1) /* Button background color */
+    public static let colorLightmodeButtonBgDisabled = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1) /* Disabled button background */
+    public static let colorLightmodeButtonBgHover = UIColor(red: 0.267, green: 0.000, blue: 0.400, alpha: 1) /* Button hover background */
+    public static let colorLightmodeButtonBgSecondary = UIColor(red: 0.933, green: 0.800, blue: 1.000, alpha: 1) /* Secondary button background color */
     public static let colorLightmodeButtonText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /* Button foreground color */
+    public static let colorLightmodeButtonTextDisabled = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1) /* Disabled button text */
+    public static let colorLightmodeButtonTextUnbounded = UIColor(red: 0.533, green: 0.000, blue: 0.800, alpha: 1) /* Button text without border */
     public static let colorLightmodeDataColor1 = UIColor(red: 0.702, green: 0.165, blue: 0.976, alpha: 1) /* Color 1 */
     public static let colorLightmodeDataColor2 = UIColor(red: 0.345, green: 0.455, blue: 1.000, alpha: 1) /* Color 2 */
     public static let colorLightmodeDataColor3 = UIColor(red: 0.000, green: 0.600, blue: 1.000, alpha: 1) /* Color 3 */
@@ -67,11 +78,24 @@ public class StyleDictionary {
     public static let colorLightmodeSemanticNeutral = UIColor(red: 0.361, green: 0.412, blue: 0.439, alpha: 1)
     public static let colorLightmodeTextBody = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1) /* Body text */
     public static let colorLightmodeTextFooter = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1) /* Footer text */
+    public static let colorLightmodeTextForm = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1) /* Form text */
     public static let colorLightmodeTextLearnMore = UIColor(red: 0.533, green: 0.000, blue: 0.800, alpha: 1) /* Use for buttons that don't have a background box */
     public static let colorLightmodeTextLearnmoreLarge = UIColor(red: 0.533, green: 0.000, blue: 0.800, alpha: 1) /* Larger Learn More or buttons without background box */
     public static let colorLightmodeTextNavbarItems = UIColor(red: 0.102, green: 0.102, blue: 0.102, alpha: 1) /* Text color for navbar links */
     public static let colorLightmodeTextSubtitle = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.6) /* Use on subtitles */
-    public static let colorLightmodeTextTitle = UIColor(red: 0.533, green: 0.000, blue: 0.800, alpha: 1) /* Title color */
+    public static let colorLightmodeTextTitle = UIColor(red: 0.024, green: 0.294, blue: 0.376, alpha: 1) /* Title color */
+    public static let effectButtonDefaultColor = rgba(0, 0, 0, 0.15)
+    public static let effectButtonDefaultOffsetX = 0
+    public static let effectButtonDefaultOffsetY = 6
+    public static let effectButtonDefaultRadius = 6
+    public static let effectButtonDefaultSpread = -4
+    public static let effectButtonDefaultType = dropShadow
+    public static let effectButtonHoverColor = rgba(0, 0, 0, 0.1)
+    public static let effectButtonHoverOffsetX = 0
+    public static let effectButtonHoverOffsetY = 8
+    public static let effectButtonHoverRadius = 10
+    public static let effectButtonHoverSpread = -4
+    public static let effectButtonHoverType = dropShadow
     public static let effectGlowBlueColor = rgba(110, 215, 247, 1)
     public static let effectGlowBlueOffsetX = 0
     public static let effectGlowBlueOffsetY = 0
@@ -84,12 +108,18 @@ public class StyleDictionary {
     public static let effectGlowFusiaRadius = 28
     public static let effectGlowFusiaSpread = 0
     public static let effectGlowFusiaType = dropShadow
-    public static let effectGlowLargeButtonsColor = rgba(6, 235, 236, 1)
-    public static let effectGlowLargeButtonsOffsetX = 0
-    public static let effectGlowLargeButtonsOffsetY = 0
-    public static let effectGlowLargeButtonsRadius = 12
-    public static let effectGlowLargeButtonsSpread = 0
-    public static let effectGlowLargeButtonsType = dropShadow
+    public static let effectGlowLargeIconsDarkmodeColor = rgba(179, 42, 249, 1)
+    public static let effectGlowLargeIconsDarkmodeOffsetX = 0
+    public static let effectGlowLargeIconsDarkmodeOffsetY = 0
+    public static let effectGlowLargeIconsDarkmodeRadius = 12
+    public static let effectGlowLargeIconsDarkmodeSpread = 0
+    public static let effectGlowLargeIconsDarkmodeType = dropShadow
+    public static let effectGlowLargeIconsLightmodeColor = rgba(39, 197, 243, 1)
+    public static let effectGlowLargeIconsLightmodeOffsetX = 0
+    public static let effectGlowLargeIconsLightmodeOffsetY = 0
+    public static let effectGlowLargeIconsLightmodeRadius = 12
+    public static let effectGlowLargeIconsLightmodeSpread = 0
+    public static let effectGlowLargeIconsLightmodeType = dropShadow
     public static let effectGlowYellowColor = rgba(218, 254, 0, 1)
     public static let effectGlowYellowOffsetX = 0
     public static let effectGlowYellowOffsetY = 0
@@ -178,7 +208,7 @@ public class StyleDictionary {
     public static let fontCaptionLineHeight = "120"
     public static let fontCaptionParagraphIndent = "0"
     public static let fontCaptionParagraphSpacing = "10"
-    public static let fontCaptionTextCase = "none"
+    public static let fontCaptionTextCase = "uppercase"
     public static let fontCaptionTextDecoration = "none"
     public static let fontH1FontFamily = "Roboto"
     public static let fontH1FontSize = "64"
@@ -276,6 +306,12 @@ public class StyleDictionary {
     public static let fontTitleUltraParagraphSpacing = "0"
     public static let fontTitleUltraTextCase = "uppercase"
     public static let fontTitleUltraTextDecoration = "none"
+    public static let gradientPatternsBluegradientGradientType = linear
+    public static let gradientPatternsBluegradientOpacity = 1
+    public static let gradientPatternsBluegradientStops0Color = rgba(26, 201, 255, 1)
+    public static let gradientPatternsBluegradientStops0Position = 0
+    public static let gradientPatternsBluegradientStops1Color = rgba(0, 255, 255, 1)
+    public static let gradientPatternsBluegradientStops1Position = 1
     public static let gridLg992pxAlignment = stretch
     public static let gridLg992pxCount = 12
     public static let gridLg992pxGutterSize = 16

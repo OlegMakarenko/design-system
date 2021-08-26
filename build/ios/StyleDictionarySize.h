@@ -3,12 +3,15 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 08:06:42 GMT
+// Generated on Thu, 26 Aug 2021 14:01:21 GMT
 
 
 #import <Foundation/Foundation.h>
 
 
+extern float const GradientPatternsBluegradientStops0Position;
+extern float const GradientPatternsBluegradientStops1Position;
+extern float const GradientPatternsBluegradientOpacity;
 extern float const GridXsm320pxGutterSize;
 extern float const GridXsm320pxCount;
 extern float const GridXsm320pxOffset;
@@ -57,6 +60,12 @@ extern float const FontSubtitleFontWeight;
 extern float const FontSubtitleLetterSpacing;
 extern float const FontSubtitleParagraphIndent;
 extern float const FontSubtitleParagraphSpacing;
+extern float const FontBodyHeroFontSize;
+extern float const FontBodyHeroFontWeight;
+extern float const FontBodyHeroLetterSpacing;
+extern float const FontBodyHeroLineHeight;
+extern float const FontBodyHeroParagraphIndent;
+extern float const FontBodyHeroParagraphSpacing;
 extern float const FontBodyFontSize;
 extern float const FontBodyFontWeight;
 extern float const FontBodyLetterSpacing;
@@ -105,12 +114,6 @@ extern float const FontButtonUnboundedLetterSpacing;
 extern float const FontButtonUnboundedLineHeight;
 extern float const FontButtonUnboundedParagraphIndent;
 extern float const FontButtonUnboundedParagraphSpacing;
-extern float const FontBodyHeroFontSize;
-extern float const FontBodyHeroFontWeight;
-extern float const FontBodyHeroLetterSpacing;
-extern float const FontBodyHeroLineHeight;
-extern float const FontBodyHeroParagraphIndent;
-extern float const FontBodyHeroParagraphSpacing;
 extern float const EffectGlowYellowRadius;
 extern float const EffectGlowYellowOffsetX;
 extern float const EffectGlowYellowOffsetY;
@@ -119,11 +122,23 @@ extern float const EffectGlowFusiaRadius;
 extern float const EffectGlowFusiaOffsetX;
 extern float const EffectGlowFusiaOffsetY;
 extern float const EffectGlowFusiaSpread;
-extern float const EffectGlowLargeButtonsRadius;
-extern float const EffectGlowLargeButtonsOffsetX;
-extern float const EffectGlowLargeButtonsOffsetY;
-extern float const EffectGlowLargeButtonsSpread;
 extern float const EffectGlowBlueRadius;
 extern float const EffectGlowBlueOffsetX;
 extern float const EffectGlowBlueOffsetY;
 extern float const EffectGlowBlueSpread;
+extern float const EffectGlowLargeIconsLightmodeRadius;
+extern float const EffectGlowLargeIconsLightmodeOffsetX;
+extern float const EffectGlowLargeIconsLightmodeOffsetY;
+extern float const EffectGlowLargeIconsLightmodeSpread;
+extern float const EffectGlowLargeIconsDarkmodeRadius;
+extern float const EffectGlowLargeIconsDarkmodeOffsetX;
+extern float const EffectGlowLargeIconsDarkmodeOffsetY;
+extern float const EffectGlowLargeIconsDarkmodeSpread;
+extern float const EffectButtonHoverRadius;
+extern float const EffectButtonHoverOffsetX;
+extern float const EffectButtonHoverOffsetY;
+extern float const EffectButtonHoverSpread;
+extern float const EffectButtonDefaultRadius;
+extern float const EffectButtonDefaultOffsetX;
+extern float const EffectButtonDefaultOffsetY;
+extern float const EffectButtonDefaultSpread;

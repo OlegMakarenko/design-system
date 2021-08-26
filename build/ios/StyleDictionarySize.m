@@ -4,12 +4,15 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 08:06:42 GMT
+// Generated on Thu, 26 Aug 2021 14:01:21 GMT
 
 
 #import "StyleDictionarySize.h"
 
 
+float const GradientPatternsBluegradientStops0Position = 0;
+float const GradientPatternsBluegradientStops1Position = 1;
+float const GradientPatternsBluegradientOpacity = 1;
 float const GridXsm320pxGutterSize = 8;
 float const GridXsm320pxCount = 8;
 float const GridXsm320pxOffset = 16;
@@ -58,6 +61,12 @@ float const FontSubtitleFontWeight = @"500";
 float const FontSubtitleLetterSpacing = @"0";
 float const FontSubtitleParagraphIndent = @"0";
 float const FontSubtitleParagraphSpacing = @"0";
+float const FontBodyHeroFontSize = @"20";
+float const FontBodyHeroFontWeight = @"400";
+float const FontBodyHeroLetterSpacing = @"0";
+float const FontBodyHeroLineHeight = @"150";
+float const FontBodyHeroParagraphIndent = @"0";
+float const FontBodyHeroParagraphSpacing = @"17";
 float const FontBodyFontSize = @"18";
 float const FontBodyFontWeight = @"400";
 float const FontBodyLetterSpacing = @"0";
@@ -106,12 +115,6 @@ float const FontButtonUnboundedLetterSpacing = @"2";
 float const FontButtonUnboundedLineHeight = @"100";
 float const FontButtonUnboundedParagraphIndent = @"0";
 float const FontButtonUnboundedParagraphSpacing = @"0";
-float const FontBodyHeroFontSize = @"20";
-float const FontBodyHeroFontWeight = @"400";
-float const FontBodyHeroLetterSpacing = @"0";
-float const FontBodyHeroLineHeight = @"150";
-float const FontBodyHeroParagraphIndent = @"0";
-float const FontBodyHeroParagraphSpacing = @"17";
 float const EffectGlowYellowRadius = 28;
 float const EffectGlowYellowOffsetX = 0;
 float const EffectGlowYellowOffsetY = 0;
@@ -120,11 +123,23 @@ float const EffectGlowFusiaRadius = 28;
 float const EffectGlowFusiaOffsetX = 0;
 float const EffectGlowFusiaOffsetY = 0;
 float const EffectGlowFusiaSpread = 0;
-float const EffectGlowLargeButtonsRadius = 12;
-float const EffectGlowLargeButtonsOffsetX = 0;
-float const EffectGlowLargeButtonsOffsetY = 0;
-float const EffectGlowLargeButtonsSpread = 0;
 float const EffectGlowBlueRadius = 28;
 float const EffectGlowBlueOffsetX = 0;
 float const EffectGlowBlueOffsetY = 0;
 float const EffectGlowBlueSpread = 0;
+float const EffectGlowLargeIconsLightmodeRadius = 12;
+float const EffectGlowLargeIconsLightmodeOffsetX = 0;
+float const EffectGlowLargeIconsLightmodeOffsetY = 0;
+float const EffectGlowLargeIconsLightmodeSpread = 0;
+float const EffectGlowLargeIconsDarkmodeRadius = 12;
+float const EffectGlowLargeIconsDarkmodeOffsetX = 0;
+float const EffectGlowLargeIconsDarkmodeOffsetY = 0;
+float const EffectGlowLargeIconsDarkmodeSpread = 0;
+float const EffectButtonHoverRadius = 10;
+float const EffectButtonHoverOffsetX = 0;
+float const EffectButtonHoverOffsetY = 8;
+float const EffectButtonHoverSpread = -4;
+float const EffectButtonDefaultRadius = 6;
+float const EffectButtonDefaultOffsetX = 0;
+float const EffectButtonDefaultOffsetY = 6;
+float const EffectButtonDefaultSpread = -4;

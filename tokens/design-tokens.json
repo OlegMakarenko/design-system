@@ -147,6 +147,34 @@
           "comment": "Unbounded button text color",
           "value": "rgba(39, 197, 243, 1)",
           "type": "color"
+        },
+        "bg_hover": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Button hover background",
+          "value": "rgba(11, 150, 193, 1)",
+          "type": "color"
+        },
+        "bg_disabled": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Disabled button background",
+          "value": "rgba(204, 204, 204, 1)",
+          "type": "color"
+        },
+        "text_disabled": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Disabled button text",
+          "value": "rgba(51, 51, 51, 1)",
+          "type": "color"
+        },
+        "bg_secondary": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Secondary button background color",
+          "value": "rgba(207, 242, 252, 1)",
+          "type": "color"
         }
       },
       "icon": {
@@ -276,6 +304,20 @@
           "comment": "Footer Color",
           "value": "rgba(204, 204, 204, 1)",
           "type": "color"
+        },
+        "form": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Form item background color (textfield)",
+          "value": "rgba(241, 243, 244, 1)",
+          "type": "color"
+        },
+        "card": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Card background color",
+          "value": "rgba(0, 0, 0, 0.15)",
+          "type": "color"
         }
       },
       "text": {
@@ -290,7 +332,7 @@
           "category": "color",
           "exportKey": "color",
           "comment": "Title color",
-          "value": "rgba(136, 0, 204, 1)",
+          "value": "rgba(6, 75, 96, 1)",
           "type": "color"
         },
         "navbar_items": {
@@ -326,6 +368,13 @@
           "exportKey": "color",
           "comment": "Use on subtitles",
           "value": "rgba(0, 0, 0, 0.6)",
+          "type": "color"
+        },
+        "form": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Form text",
+          "value": "rgba(51, 51, 51, 1)",
           "type": "color"
         }
       },
@@ -365,6 +414,41 @@
           "exportKey": "color",
           "comment": "Button foreground color",
           "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "text_unbounded": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Button text without border",
+          "value": "rgba(136, 0, 204, 1)",
+          "type": "color"
+        },
+        "bg_hover": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Button hover background",
+          "value": "rgba(68, 0, 102, 1)",
+          "type": "color"
+        },
+        "bg_disabled": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Disabled button background",
+          "value": "rgba(204, 204, 204, 1)",
+          "type": "color"
+        },
+        "text_disabled": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Disabled button text",
+          "value": "rgba(51, 51, 51, 1)",
+          "type": "color"
+        },
+        "bg_secondary": {
+          "category": "color",
+          "exportKey": "color",
+          "comment": "Secondary button background color",
+          "value": "rgba(238, 204, 255, 1)",
           "type": "color"
         }
       },
@@ -462,6 +546,44 @@
           "comment": "Information",
           "value": "rgba(64, 134, 191, 1)",
           "type": "color"
+        }
+      }
+    }
+  },
+  "gradient": {
+    "patterns": {
+      "bluegradient": {
+        "category": "gradient",
+        "exportKey": "gradient",
+        "gradientType": {
+          "value": "linear",
+          "type": "string"
+        },
+        "stops": {
+          "0": {
+            "position": {
+              "value": 0,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(26, 201, 255, 1)",
+              "type": "color"
+            }
+          },
+          "1": {
+            "position": {
+              "value": 1,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(0, 255, 255, 1)",
+              "type": "color"
+            }
+          }
+        },
+        "opacity": {
+          "value": 1,
+          "type": "number"
         }
       }
     }
@@ -941,6 +1063,63 @@
         "type": "string"
       }
     },
+    "body_hero": {
+      "category": "font",
+      "exportKey": "font",
+      "fontSize": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "none",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Protipo",
+        "type": "string"
+      },
+      "fontWeight": {
+        "value": 400,
+        "type": "number"
+      },
+      "fontStyle": {
+        "value": "normal",
+        "type": "string"
+      },
+      "fontStretch": {
+        "value": "normal",
+        "type": "string"
+      },
+      "_fontStyleOld": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": 150,
+        "type": "number",
+        "unit": "percent"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 17,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
+    },
     "body": {
       "category": "font",
       "exportKey": "font",
@@ -1280,7 +1459,7 @@
         "unit": "pixel"
       },
       "textCase": {
-        "value": "none",
+        "value": "uppercase",
         "type": "string"
       }
     },
@@ -1397,63 +1576,6 @@
         "value": "uppercase",
         "type": "string"
       }
-    },
-    "body_hero": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 20,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
-      "fontFamily": {
-        "value": "Protipo",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Regular",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "percent"
-      },
-      "lineHeight": {
-        "value": 150,
-        "type": "number",
-        "unit": "percent"
-      },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "paragraphSpacing": {
-        "value": 17,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
-      }
     }
   },
   "effect": {
@@ -1526,40 +1648,6 @@
           "unit": "pixel"
         }
       },
-      "large buttons": {
-        "category": "effect",
-        "exportKey": "effect",
-        "type": {
-          "value": "dropShadow",
-          "type": "string"
-        },
-        "radius": {
-          "value": 12,
-          "type": "number",
-          "unit": "pixel"
-        },
-        "color": {
-          "value": "rgba(6, 235, 236, 1)",
-          "type": "color"
-        },
-        "offset": {
-          "x": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          },
-          "y": {
-            "value": 0,
-            "type": "number",
-            "unit": "pixel"
-          }
-        },
-        "spread": {
-          "value": 0,
-          "type": "number",
-          "unit": "pixel"
-        }
-      },
       "blue": {
         "category": "effect",
         "exportKey": "effect",
@@ -1590,6 +1678,146 @@
         },
         "spread": {
           "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "large icons": {
+        "lightmode": {
+          "category": "effect",
+          "exportKey": "effect",
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 12,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(39, 197, 243, 1)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "darkmode": {
+          "category": "effect",
+          "exportKey": "effect",
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 12,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(179, 42, 249, 1)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        }
+      }
+    },
+    "button": {
+      "hover": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 10,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 0.1)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 8,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": -4,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "default": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 6,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 0.15)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 6,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": -4,
           "type": "number",
           "unit": "pixel"
         }

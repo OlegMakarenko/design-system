@@ -1,23 +1,31 @@
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 08:06:42 GMT
+// Generated on Thu, 26 Aug 2021 14:01:21 GMT
 
 $color-bg-gray: #f2f0f4; // Option 1 for main body sections
 $color-bg-light: #faf9fb; // Option 2 for main body sections
 $color-bg-navbar: #ffffff; // Navbar color
 $color-bg-footer: #cccccc; // Footer Color
+$color-bg-form: #f1f3f4; // Form item background color (textfield)
+$color-bg-card: #000000; // Card background color
 $color-text-body: #333333; // Body text
-$color-text-title: #8800cc; // Title color
+$color-text-title: #064b60; // Title color
 $color-text-navbar-items: #1a1a1a; // Text color for navbar links
 $color-text-learn-more: #8800cc; // Use for buttons that don't have a background box
 $color-text-learnmore-large: #8800cc; // Larger Learn More or buttons without background box
 $color-text-footer: #333333; // Footer text
 $color-text-subtitle: #000000; // Use on subtitles
+$color-text-form: #333333; // Form text
 $color-logo-bg: #b32af9; // Logo background color 
 $color-logo-fg: #4d4d4d; // Logo foreground color
 $color-logo-text: #1a1a1a; // Color of the word Symbol
 $color-button-bg: #8800cc; // Button background color
 $color-button-text: #ffffff; // Button foreground color
+$color-button-text-unbounded: #8800cc; // Button text without border
+$color-button-bg-hover: #440066; // Button hover background
+$color-button-bg-disabled: #cccccc; // Disabled button background
+$color-button-text-disabled: #333333; // Disabled button text
+$color-button-bg-secondary: #eeccff; // Secondary button background color
 $color-icon-highlight: #b32af9; // Brightest part of icon
 $color-icon-secondary: #8800cc; // Secondary color
 $color-icon-base: #1a1a1a; // Base color
