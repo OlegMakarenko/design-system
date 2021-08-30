@@ -1,13 +1,14 @@
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 14:01:21 GMT
+// Generated on Mon, 30 Aug 2021 16:05:05 GMT
 
-$color-darkmode-bg-gray: #221c31; // Main body sections
-$color-darkmode-bg-dark: #1b0a29; // Main body section option
+$color-darkmode-bg-main: #1b0a29; // Main background color
+$color-darkmode-bg-gray: #221c31; // Main body sections - secondary option
 $color-darkmode-bg-navbar: #000000; // Navbar color
 $color-darkmode-bg-footer: #1a1a1a; // Footer Color
 $color-darkmode-bg-form: #f1f3f4; // Form background color
 $color-darkmode-bg-card: #ffffff; // Card background color
+$color-darkmode-bg-dark: #1b0a29; // Main body section option
 $color-darkmode-text-body: #ffffff; // Body text
 $color-darkmode-text-title: #b32af9; // Use on titles
 $color-darkmode-text-navbar-items: #ffffff; // Text color for navbar links
@@ -39,12 +40,13 @@ $color-darkmode-semantic-caution: #f7c06e; // Caution (possible error)
 $color-darkmode-semantic-good: #b3e6b3; // Good things
 $color-darkmode-semantic-neutral: #c7ced1; // Neutral
 $color-darkmode-semantic-info: #9ed1fa; // Info
-$color-lightmode-bg-gray: #f2f0f4; // Option 1 for main body sections
-$color-lightmode-bg-light: #faf9fb; // Option 2 for main body sections
+$color-lightmode-bg-main: #faf9fb; // Main background color
+$color-lightmode-bg-gray: #f2f0f4; // Main body sections - secondary option
 $color-lightmode-bg-navbar: #ffffff; // Navbar color
 $color-lightmode-bg-footer: #cccccc; // Footer Color
 $color-lightmode-bg-form: #f1f3f4; // Form item background color (textfield)
 $color-lightmode-bg-card: #000000; // Card background color
+$color-lightmode-bg-light: #faf9fb; // Option 2 for main body sections
 $color-lightmode-text-body: #333333; // Body text
 $color-lightmode-text-title: #064b60; // Title color
 $color-lightmode-text-navbar-items: #1a1a1a; // Text color for navbar links

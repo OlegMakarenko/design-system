@@ -1,10 +1,11 @@
 :root {
-  --color-bg-gray: #f2f0f4; /* Option 1 for main body sections */
-  --color-bg-light: #faf9fb; /* Option 2 for main body sections */
+  --color-bg-main: #faf9fb; /* Main background color */
+  --color-bg-gray: #f2f0f4; /* Main body sections - secondary option */
   --color-bg-navbar: #ffffff; /* Navbar color */
   --color-bg-footer: #cccccc; /* Footer Color */
   --color-bg-form: #f1f3f4; /* Form item background color (textfield) */
   --color-bg-card: rgba(0, 0, 0, 0.15); /* Card background color */
+  --color-bg-light: #faf9fb; /* Option 2 for main body sections */
   --color-text-body: #333333; /* Body text */
   --color-text-title: #064b60; /* Title color */
   --color-text-navbar-items: #1a1a1a; /* Text color for navbar links */

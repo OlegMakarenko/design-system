@@ -1,10 +1,11 @@
 {
+  "ColorBgMain": "#faf9fb",
   "ColorBgGray": "#f2f0f4",
-  "ColorBgLight": "#faf9fb",
   "ColorBgNavbar": "#ffffff",
   "ColorBgFooter": "#cccccc",
   "ColorBgForm": "#f1f3f4",
   "ColorBgCard": "#000000",
+  "ColorBgLight": "#faf9fb",
   "ColorTextBody": "#333333",
   "ColorTextTitle": "#064b60",
   "ColorTextNavbarItems": "#1a1a1a",

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 14:01:21 GMT
+// Generated on Mon, 30 Aug 2021 16:05:05 GMT
 
 
 import UIKit
@@ -14,7 +14,8 @@ public class StyleDictionary {
     public static let colorDarkmodeBgDark = UIColor(red: 0.106, green: 0.039, blue: 0.161, alpha: 1) /* Main body section option */
     public static let colorDarkmodeBgFooter = UIColor(red: 0.102, green: 0.102, blue: 0.102, alpha: 1) /* Footer Color */
     public static let colorDarkmodeBgForm = UIColor(red: 0.945, green: 0.953, blue: 0.957, alpha: 1) /* Form background color */
-    public static let colorDarkmodeBgGray = UIColor(red: 0.133, green: 0.110, blue: 0.192, alpha: 1) /* Main body sections */
+    public static let colorDarkmodeBgGray = UIColor(red: 0.133, green: 0.110, blue: 0.192, alpha: 1) /* Main body sections - secondary option */
+    public static let colorDarkmodeBgMain = UIColor(red: 0.106, green: 0.039, blue: 0.161, alpha: 1) /* Main background color */
     public static let colorDarkmodeBgNavbar = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1) /* Navbar color */
     public static let colorDarkmodeButtonBg = UIColor(red: 0.153, green: 0.773, blue: 0.953, alpha: 1) /* Button background color */
     public static let colorDarkmodeButtonBgDisabled = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1) /* Disabled button background */
@@ -50,8 +51,9 @@ public class StyleDictionary {
     public static let colorLightmodeBgCard = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.15) /* Card background color */
     public static let colorLightmodeBgFooter = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1) /* Footer Color */
     public static let colorLightmodeBgForm = UIColor(red: 0.945, green: 0.953, blue: 0.957, alpha: 1) /* Form item background color (textfield) */
-    public static let colorLightmodeBgGray = UIColor(red: 0.949, green: 0.941, blue: 0.957, alpha: 1) /* Option 1 for main body sections */
+    public static let colorLightmodeBgGray = UIColor(red: 0.949, green: 0.941, blue: 0.957, alpha: 1) /* Main body sections - secondary option */
     public static let colorLightmodeBgLight = UIColor(red: 0.980, green: 0.976, blue: 0.984, alpha: 1) /* Option 2 for main body sections */
+    public static let colorLightmodeBgMain = UIColor(red: 0.980, green: 0.976, blue: 0.984, alpha: 1) /* Main background color */
     public static let colorLightmodeBgNavbar = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /* Navbar color */
     public static let colorLightmodeButtonBg = UIColor(red: 0.533, green: 0.000, blue: 0.800, alpha: 1) /* Button background color */
     public static let colorLightmodeButtonBgDisabled = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1) /* Disabled button background */

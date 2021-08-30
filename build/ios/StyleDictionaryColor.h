@@ -4,18 +4,19 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 26 Aug 2021 14:01:21 GMT
+// Generated on Mon, 30 Aug 2021 16:05:05 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+ColorDarkmodeBgMain,
 ColorDarkmodeBgGray,
-ColorDarkmodeBgDark,
 ColorDarkmodeBgNavbar,
 ColorDarkmodeBgFooter,
 ColorDarkmodeBgForm,
 ColorDarkmodeBgCard,
+ColorDarkmodeBgDark,
 ColorDarkmodeTextBody,
 ColorDarkmodeTextTitle,
 ColorDarkmodeTextNavbarItems,
@@ -47,12 +48,13 @@ ColorDarkmodeSemanticCaution,
 ColorDarkmodeSemanticGood,
 ColorDarkmodeSemanticNeutral,
 ColorDarkmodeSemanticInfo,
+ColorLightmodeBgMain,
 ColorLightmodeBgGray,
-ColorLightmodeBgLight,
 ColorLightmodeBgNavbar,
 ColorLightmodeBgFooter,
 ColorLightmodeBgForm,
 ColorLightmodeBgCard,
+ColorLightmodeBgLight,
 ColorLightmodeTextBody,
 ColorLightmodeTextTitle,
 ColorLightmodeTextNavbarItems,
