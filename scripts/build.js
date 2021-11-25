@@ -1,5 +1,6 @@
 const StyleDictionary = require('style-dictionary');
 const config = require('./config');
+
 const modes = ['all', 'lightmode', 'darkmode'];
 
 
@@ -14,7 +15,7 @@ function registerTransforms() {
             return `${token.value}px`
         },
     });
-    
+
     StyleDictionary.registerTransform({
         name: 'size/percent',
         type: 'value',
@@ -25,7 +26,7 @@ function registerTransforms() {
             return `${token.value}%`
         },
     });
-    
+
     StyleDictionary.registerTransformGroup({
         name: 'custom/css',
         transforms: StyleDictionary.transformGroup['css'].concat([
@@ -33,7 +34,7 @@ function registerTransforms() {
             'size/percent',
         ]),
     });
-    
+
     StyleDictionary.registerTransformGroup({
         name: 'custom/less',
         transforms: StyleDictionary.transformGroup['less'].concat([
@@ -41,7 +42,7 @@ function registerTransforms() {
             'size/percent',
         ]),
     });
-    
+
     StyleDictionary.registerTransformGroup({
         name: 'custom/scss',
         transforms: StyleDictionary.transformGroup['less'].concat([
@@ -54,7 +55,7 @@ function registerTransforms() {
 function buildAll() {
     modes.forEach(mode => {
         console.log('Building styles from tokens: ' + mode);
-        
+
         StyleDictionary
             .extend(config.getConfig(mode))
             .buildAllPlatforms()
