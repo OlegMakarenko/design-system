@@ -4,6 +4,9 @@ const modes = ['lightmode', 'darkmode'];
 
 
 function splitTokensByModes() {
+    console.log(`Splitting tokens by modes`);
+    console.log(`Received tokens:`, designTokens);
+
     modes.forEach(mode => {
         console.log(`Creating "tokens/${mode}-tokens.json"`);
 
