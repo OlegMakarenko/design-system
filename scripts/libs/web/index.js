@@ -19,6 +19,24 @@ module.exports = {
       'web/font',
       'web/gradient',
       'color/hex8ToRgba'
+    ]),
+    'custom/scss': StyleDictionary.transformGroup.scss.concat([
+      'size/px',
+      'web/shadow',
+      'web/radius',
+      'web/padding',
+      'web/font',
+      'web/gradient',
+      'color/hex8ToRgba'
+    ]),
+    'custom/less': StyleDictionary.transformGroup.less.concat([
+      'size/px',
+      'web/shadow',
+      'web/radius',
+      'web/padding',
+      'web/font',
+      'web/gradient',
+      'color/hex8ToRgba'
     ])
   },
   format: {
