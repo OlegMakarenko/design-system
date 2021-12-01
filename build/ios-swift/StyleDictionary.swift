@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 30 Nov 2021 16:39:12 GMT
+// Generated on Wed, 01 Dec 2021 17:35:47 GMT
 
 
 import UIKit
@@ -17,7 +17,7 @@ public class StyleDictionary {
     public static let colorDarkmodeBgGray = UIColor(red: 0.133, green: 0.110, blue: 0.192, alpha: 1)
     public static let colorDarkmodeBgMain = UIColor(red: 0.106, green: 0.039, blue: 0.161, alpha: 1)
     public static let colorDarkmodeBgNavbar = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let colorDarkmodeButtonBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeButtonBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeButtonBgDisabled = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
     public static let colorDarkmodeButtonBgHover = UIColor(red: 0.035, green: 0.533, blue: 0.682, alpha: 1)
     public static let colorDarkmodeButtonBgSecondary = UIColor(red: 0.824, green: 0.941, blue: 0.976, alpha: 1)

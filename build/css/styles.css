@@ -20,7 +20,7 @@
   --color-darkmode-logo-bg: rgb(180, 41, 250);
   --color-darkmode-logo-text: rgb(255, 255, 255);
   --color-darkmode-logo-fg: rgb(26, 26, 26);
-  --color-darkmode-button-bg: rgb(11, 255, 24);
+  --color-darkmode-button-bg: rgb(11, 0, 24);
   --color-darkmode-button-text: rgb(38, 195, 242);
   --color-darkmode-button-text-unbounded: rgb(38, 195, 242);
   --color-darkmode-button-bg-hover: rgb(9, 136, 174);
@@ -1345,7 +1345,7 @@
   --color-logo-bg: rgb(180, 41, 250);
   --color-logo-text: rgb(255, 255, 255);
   --color-logo-fg: rgb(26, 26, 26);
-  --color-button-bg: rgb(11, 255, 24);
+  --color-button-bg: rgb(11, 0, 24);
   --color-button-text: rgb(38, 195, 242);
   --color-button-text-unbounded: rgb(38, 195, 242);
   --color-button-bg-hover: rgb(9, 136, 174);

@@ -244,7 +244,7 @@
         "bg": {
           "description": "Button background color",
           "type": "color",
-          "value": "#0bff18ff",
+          "value": "#0b0018ff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "styleId": "S:4a3469ddaeea3120f326916811af85ed5d2e7582,",
