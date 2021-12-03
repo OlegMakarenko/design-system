@@ -1,11 +1,11 @@
-const camelCase = require('../common/camelCaseHelper')
+const camelCase = require('../common/camelCaseHelper');
 
 module.exports = {
-  type: 'name',
-  matcher: function (token) {
-    return token.type === 'color'
-  },
-  transformer: function (token) {
-    return camelCase(token.path.slice(2).join(' '))
-  }
-}
+    type: 'name',
+    matcher: function(token) {
+        return token.type === 'color';
+    },
+    transformer: function(token) {
+        return camelCase(token.path.slice(2).join(' '));
+    },
+};

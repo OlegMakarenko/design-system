@@ -3,16 +3,15 @@ const config = require('./config');
 
 const modes = ['all', 'lightmode', 'darkmode'];
 
-
 function registerTransforms() {
     StyleDictionary.registerTransform({
         name: 'size/px',
         type: 'value',
         matcher: token => {
-            return token.unit === 'pixel' && token.value !== 0
+            return token.unit === 'pixel' && token.value !== 0;
         },
         transformer: token => {
-            return `${token.value}px`
+            return `${token.value}px`;
         },
     });
 
@@ -20,10 +19,10 @@ function registerTransforms() {
         name: 'size/percent',
         type: 'value',
         matcher: token => {
-            return token.unit === 'percent' && token.value !== 0
+            return token.unit === 'percent' && token.value !== 0;
         },
         transformer: token => {
-            return `${token.value}%`
+            return `${token.value}%`;
         },
     });
 
@@ -56,9 +55,7 @@ function buildAll() {
     modes.forEach(mode => {
         console.log('Building styles from tokens: ' + mode);
 
-        StyleDictionary
-            .extend(config.getConfig(mode))
-            .buildAllPlatforms()
+        StyleDictionary.extend(config.getConfig(mode)).buildAllPlatforms();
     });
 }
 

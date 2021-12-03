@@ -6,13 +6,13 @@ const webConfig = require('./libs/web');
 function getConfig(mode) {
     let source;
     let destination;
-    
-    switch(mode) {
+
+    switch (mode) {
         case 'lightmode':
             source = 'tokens/lightmode-tokens.json';
             destination = 'lightmode';
             break;
-        
+
         case 'darkmode':
             source = 'tokens/darkmode-tokens.json';
             destination = 'darkmode';
@@ -27,7 +27,7 @@ function getConfig(mode) {
 
     let config = {
         ...deepMerge.all([androidConfig, iosConfig, webConfig]),
-        source: [ source ],
+        source: [source],
         platforms: {
             scss: {
                 transformGroup: 'custom/scss',
@@ -35,9 +35,9 @@ function getConfig(mode) {
                 files: [
                     {
                         destination: `${destination}.scss`,
-                        format: 'scss/variables'
-                    }
-                ]
+                        format: 'scss/variables',
+                    },
+                ],
             },
             less: {
                 transformGroup: 'custom/less',
@@ -45,9 +45,9 @@ function getConfig(mode) {
                 files: [
                     {
                         destination: `${destination}.less`,
-                        format: 'less/variables'
-                    }
-                ]
+                        format: 'less/variables',
+                    },
+                ],
             },
             css: {
                 transformGroup: 'custom/css',
@@ -56,11 +56,11 @@ function getConfig(mode) {
                     {
                         destination: `${destination}.css`,
                         format: 'css/variables',
-                        'options': {
-                            'showFileHeader': false
-                        }
-                    }
-                ]
+                        options: {
+                            showFileHeader: false,
+                        },
+                    },
+                ],
             },
             'json-flat': {
                 transformGroup: 'js',
@@ -68,15 +68,15 @@ function getConfig(mode) {
                 files: [
                     {
                         destination: `${destination}.json`,
-                        format: 'json/flat'
-                    }
-                ]
-            }
-        }
+                        format: 'json/flat',
+                    },
+                ],
+            },
+        },
     };
 
     const iOSPlatforms = {
-        'ios': {
+        ios: {
             transformGroup: 'ios',
             buildPath: 'build/ios/',
             files: [
@@ -86,8 +86,8 @@ function getConfig(mode) {
                     className: 'StyleDictionaryColor',
                     type: 'StyleDictionaryColorName',
                     filter: {
-                        type: 'color'
-                    }
+                        type: 'color',
+                    },
                 },
                 {
                     destination: 'StyleDictionaryColor.m',
@@ -95,8 +95,8 @@ function getConfig(mode) {
                     className: 'StyleDictionaryColor',
                     type: 'StyleDictionaryColorName',
                     filter: {
-                        type: 'color'
-                    }
+                        type: 'color',
+                    },
                 },
                 {
                     destination: 'StyleDictionarySize.h',
@@ -104,8 +104,8 @@ function getConfig(mode) {
                     className: 'StyleDictionarySize',
                     type: 'float',
                     filter: {
-                        type: 'number'
-                    }
+                        type: 'number',
+                    },
                 },
                 {
                     destination: 'StyleDictionarySize.m',
@@ -113,10 +113,10 @@ function getConfig(mode) {
                     className: 'StyleDictionarySize',
                     type: 'float',
                     filter: {
-                        type: 'number'
-                    }
-                }
-            ]
+                        type: 'number',
+                    },
+                },
+            ],
         },
         'ios-swift': {
             transformGroup: 'ios-swift',
@@ -126,9 +126,9 @@ function getConfig(mode) {
                     destination: 'StyleDictionary.swift',
                     format: 'ios-swift/class.swift',
                     className: 'StyleDictionary',
-                    filter: {}
-                }
-            ]
+                    filter: {},
+                },
+            ],
         },
         'ios-swift-separate-enums': {
             transformGroup: 'ios-swift-separate',
@@ -139,8 +139,8 @@ function getConfig(mode) {
                     format: 'ios-swift/enum.swift',
                     className: 'StyleDictionaryColor',
                     filter: {
-                        type: 'color'
-                    }
+                        type: 'color',
+                    },
                 },
                 {
                     destination: 'StyleDictionarySize.swift',
@@ -148,18 +148,18 @@ function getConfig(mode) {
                     className: 'StyleDictionarySize',
                     type: 'float',
                     filter: {
-                        type: 'number'
-                    }
-                }
-            ]
-        }
+                        type: 'number',
+                    },
+                },
+            ],
+        },
     };
 
     if (mode === 'all') {
         config.platforms = {
             ...config.platforms,
-            ...iOSPlatforms
-        }
+            ...iOSPlatforms,
+        };
     }
 
     return config;

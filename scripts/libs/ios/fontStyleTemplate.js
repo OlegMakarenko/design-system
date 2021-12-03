@@ -1,8 +1,12 @@
 const dateNow = () => {
-  return new Date().toLocaleDateString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit' })
-}
+    return new Date().toLocaleDateString('de-DE', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+    });
+};
 
-module.exports = (style) => `
+module.exports = style => `
 //
 //  ${style.filename}
 //
@@ -26,4 +30,4 @@ public class ${style.class} {
   }
 
 }
-`
+`;

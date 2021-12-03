@@ -11,12 +11,12 @@
  * and limitations under the License.
  */
 
-const createPropertyFormatter = require('./createPropertyFormatter')
-const sortByReference = require('./sortByReference')
+const createPropertyFormatter = require('./createPropertyFormatter');
+const sortByReference = require('./sortByReference');
 
 const defaultFormatting = {
-  lineSeparator: '\n'
-}
+    lineSeparator: '\n',
+};
 
 /**
  *
@@ -38,27 +38,41 @@ const defaultFormatting = {
  * });
  * ```
  */
-function formattedVariables ({ format, dictionary, outputReferences = false, formatting = {} }) {
-  let { allTokens } = dictionary
+function formattedVariables({
+    format,
+    dictionary,
+    outputReferences = false,
+    formatting = {},
+}) {
+    let { allTokens } = dictionary;
 
-  const { lineSeparator } = Object.assign({}, defaultFormatting, formatting)
+    const { lineSeparator } = Object.assign({}, defaultFormatting, formatting);
 
-  // Some languages are imperative, meaning a variable has to be defined
-  // before it is used. If `outputReferences` is true, check if the token
-  // has a reference, and if it does send it to the end of the array.
-  // We also need to account for nested references, a -> b -> c. They
-  // need to be defined in reverse order: c, b, a so that the reference always
-  // comes after the definition
-  if (outputReferences) {
-    // note: using the spread operator here so we get a new array rather than
-    // mutating the original
-    allTokens = [...allTokens].sort(sortByReference(dictionary))
-  }
+    // Some languages are imperative, meaning a variable has to be defined
+    // before it is used. If `outputReferences` is true, check if the token
+    // has a reference, and if it does send it to the end of the array.
+    // We also need to account for nested references, a -> b -> c. They
+    // need to be defined in reverse order: c, b, a so that the reference always
+    // comes after the definition
+    if (outputReferences) {
+        // note: using the spread operator here so we get a new array rather than
+        // mutating the original
+        allTokens = [...allTokens].sort(sortByReference(dictionary));
+    }
 
-  return allTokens
-    .map(createPropertyFormatter({ outputReferences, dictionary, format, formatting }))
-    .filter(function (strVal) { return !!strVal })
-    .join(lineSeparator)
+    return allTokens
+        .map(
+            createPropertyFormatter({
+                outputReferences,
+                dictionary,
+                format,
+                formatting,
+            })
+        )
+        .filter(function(strVal) {
+            return !!strVal;
+        })
+        .join(lineSeparator);
 }
 
-module.exports = formattedVariables
+module.exports = formattedVariables;

@@ -12,15 +12,15 @@
  */
 
 // no-op default
-const defaultFileHeader = (arr) => arr
+const defaultFileHeader = arr => arr;
 
-const lineSeparator = '\n'
+const lineSeparator = '\n';
 const defaultFormatting = {
-  lineSeparator,
-  prefix: ' * ',
-  header: `/**${lineSeparator}`,
-  footer: `${lineSeparator} */${lineSeparator}${lineSeparator}`
-}
+    lineSeparator,
+    prefix: ' * ',
+    header: `/**${lineSeparator}`,
+    footer: `${lineSeparator} */${lineSeparator}${lineSeparator}`,
+};
 
 /**
  *
@@ -45,42 +45,46 @@ const defaultFormatting = {
  * });
  * ```
  */
-function fileHeader ({ file = {}, commentStyle, formatting = {} }) {
-  // showFileHeader is true by default
-  let showFileHeader = true
-  if (file.options && typeof file.options.showFileHeader !== 'undefined') {
-    showFileHeader = file.options.showFileHeader
-  }
+function fileHeader({ file = {}, commentStyle, formatting = {} }) {
+    // showFileHeader is true by default
+    let showFileHeader = true;
+    if (file.options && typeof file.options.showFileHeader !== 'undefined') {
+        showFileHeader = file.options.showFileHeader;
+    }
 
-  // Return empty string if the showFileHeader is false
-  if (!showFileHeader) return ''
+    // Return empty string if the showFileHeader is false
+    if (!showFileHeader) return '';
 
-  let fn = defaultFileHeader
-  if (file.options && typeof file.options.fileHeader === 'function') {
-    fn = file.options.fileHeader
-  }
+    let fn = defaultFileHeader;
+    if (file.options && typeof file.options.fileHeader === 'function') {
+        fn = file.options.fileHeader;
+    }
 
-  // default header
-  const defaultHeader = [
-    'Do not edit directly',
-    `Generated on ${new Date().toString()}`
-  ]
+    // default header
+    const defaultHeader = [
+        'Do not edit directly',
+        `Generated on ${new Date().toString()}`,
+    ];
 
-  let { prefix, lineSeparator, header, footer } = Object.assign({}, defaultFormatting, formatting)
+    let { prefix, lineSeparator, header, footer } = Object.assign(
+        {},
+        defaultFormatting,
+        formatting
+    );
 
-  if (commentStyle === 'short') {
-    prefix = '// '
-    header = `${lineSeparator}`
-    footer = `${lineSeparator}${lineSeparator}`
-  } else if (commentStyle === 'xml') {
-    prefix = '  '
-    header = `<!--${lineSeparator}`
-    footer = `${lineSeparator}-->`
-  }
+    if (commentStyle === 'short') {
+        prefix = '// ';
+        header = `${lineSeparator}`;
+        footer = `${lineSeparator}${lineSeparator}`;
+    } else if (commentStyle === 'xml') {
+        prefix = '  ';
+        header = `<!--${lineSeparator}`;
+        footer = `${lineSeparator}-->`;
+    }
 
-  return `${header}${fn(defaultHeader)
-    .map(line => `${prefix}${line}`)
-    .join(lineSeparator)}${footer}`
+    return `${header}${fn(defaultHeader)
+        .map(line => `${prefix}${line}`)
+        .join(lineSeparator)}${footer}`;
 }
 
-module.exports = fileHeader
+module.exports = fileHeader;

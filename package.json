@@ -4,27 +4,17 @@
     "description": "Symbol Design System",
     "main": "index.js",
     "dependencies": {
-        "json-to-ts": "^1.7.0",
         "style-dictionary": "^3"
     },
     "devDependencies": {
-        "@types/jest": "^26.0.23",
-        "jest": "^27.0.6",
-        "ts-jest": "^27.0.3",
-        "typescript": "^4.3.5"
+        "eslint": "^7.15.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-prettier": "^3.2.0",
+        "prettier": "^1.19.1"
     },
     "scripts": {
-        "start": "npm run transform-tokens",
         "transform-tokens": "node ./scripts/transformTokens.js",
-        "test": "jest tests --coverage=false"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/OlegMakarenko/design-system.git"
-    },
-    "bugs": {
-        "url": "https://github.com/OlegMakarenko/design-system/issues"
-    },
-    "homepage": "https://github.com/OlegMakarenko/design-system#readme",
-    "author": "Oleg Makarenko <olegomm@gmail.com> (https://github.com/OlegMakarenko)"
+        "lint": "eslint \"scripts/**/*.js\" --color",
+        "lint:fix": "eslint . --fix --color"
+    }
 }

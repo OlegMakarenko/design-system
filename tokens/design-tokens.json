@@ -16,7 +16,7 @@
         "footer": {
           "description": "Footer Color",
           "type": "color",
-          "value": "#0bff18ff",
+          "value": "#0b0018ff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "styleId": "S:df3a2520b6b3ac3b13e58024f4373dfec05b695a,",
@@ -38,7 +38,7 @@
         "dark": {
           "description": "Main body section option",
           "type": "color",
-          "value": "#0bff18ff",
+          "value": "#0b0018ff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "styleId": "S:e44fe3940ad0ba2e93a0117a55e238ee573214a0,",
@@ -358,7 +358,7 @@
         "bg": {
           "description": "Footer background color",
           "type": "color",
-          "value": "#0bff18ff",
+          "value": "#0b0018ff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "styleId": "S:6cb1968a5e4c0ee9b80d09c19769ccb8b592d6ec,",
@@ -406,7 +406,7 @@
         "bg_active": {
           "description": "Active tab button background color",
           "type": "color",
-          "value": "#0bff18ff",
+          "value": "#0b0018ff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "styleId": "S:64b9adab266d4903f2de44459019dd1cc1a464c8,",
@@ -991,7 +991,7 @@
         "bg": {
           "description": "Footer background color",
           "type": "color",
-          "value": "#0bff18ff",
+          "value": "#0b0018ff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "styleId": "S:e5e00b53fb7a51fd51f2ab53f96d65a9ce262515,",
