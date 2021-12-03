@@ -4,15 +4,15 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 03 Dec 2021 11:15:42 GMT
+// Generated on Fri, 03 Dec 2021 11:52:07 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
     public static let colorDarkmodeBgCard = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let colorDarkmodeBgDark = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
-    public static let colorDarkmodeBgFooter = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeBgDark = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeBgFooter = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeBgForm = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let colorDarkmodeBgGray = UIColor(red: 0.133, green: 0.110, blue: 0.192, alpha: 1)
     public static let colorDarkmodeBgMain = UIColor(red: 0.106, green: 0.039, blue: 0.161, alpha: 1)
@@ -32,7 +32,7 @@ public class StyleDictionary {
     public static let colorDarkmodeDataColor3 = UIColor(red: 0.000, green: 0.600, blue: 1.000, alpha: 1)
     public static let colorDarkmodeDataColor4 = UIColor(red: 0.000, green: 0.702, blue: 1.000, alpha: 1)
     public static let colorDarkmodeDataColor5 = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
-    public static let colorDarkmodeFooterBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeFooterBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeFooterText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorDarkmodeFooterTitle = UIColor(red: 0.592, green: 0.451, blue: 1.000, alpha: 1)
     public static let colorDarkmodeFormAccent = UIColor(red: 0.455, green: 0.075, blue: 0.643, alpha: 1)
@@ -50,7 +50,7 @@ public class StyleDictionary {
     public static let colorDarkmodeSemanticGood = UIColor(red: 0.702, green: 0.902, blue: 0.702, alpha: 1)
     public static let colorDarkmodeSemanticInfo = UIColor(red: 0.620, green: 0.820, blue: 0.980, alpha: 1)
     public static let colorDarkmodeSemanticNeutral = UIColor(red: 0.780, green: 0.808, blue: 0.820, alpha: 1)
-    public static let colorDarkmodeTabBgActive = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeTabBgActive = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeTabBgInactive = UIColor(red: 0.137, green: 0.110, blue: 0.196, alpha: 1)
     public static let colorDarkmodeTabOutline = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
     public static let colorDarkmodeTabText = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
@@ -86,7 +86,7 @@ public class StyleDictionary {
     public static let colorLightmodeDataColor3 = UIColor(red: 0.000, green: 0.600, blue: 1.000, alpha: 1)
     public static let colorLightmodeDataColor4 = UIColor(red: 0.000, green: 0.702, blue: 1.000, alpha: 1)
     public static let colorLightmodeDataColor5 = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
-    public static let colorLightmodeFooterBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let colorLightmodeFooterBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let colorLightmodeFooterText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorLightmodeFooterTitle = UIColor(red: 0.592, green: 0.451, blue: 1.000, alpha: 1)
     public static let colorLightmodeFormAccent = UIColor(red: 0.455, green: 0.075, blue: 0.643, alpha: 1)

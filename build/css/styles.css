@@ -1,8 +1,8 @@
 :root {
   --color-darkmode-bg-navbar: #000000;
-  --color-darkmode-bg-footer: #0bff18;
+  --color-darkmode-bg-footer: #0b0018;
   --color-darkmode-bg-main: #1b0a29;
-  --color-darkmode-bg-dark: #0bff18;
+  --color-darkmode-bg-dark: #0b0018;
   --color-darkmode-bg-gray: #221c31;
   --color-darkmode-bg-form: #ff0000;
   --color-darkmode-bg-card: #ff0000;
@@ -30,11 +30,11 @@
   --color-darkmode-icon-highlight: #26c3f2;
   --color-darkmode-icon-base: #ffffff;
   --color-darkmode-icon-accent: #b429fa;
-  --color-darkmode-footer-bg: #0bff18;
+  --color-darkmode-footer-bg: #0b0018;
   --color-darkmode-footer-title: #9773ff;
   --color-darkmode-footer-text: #ffffff;
   --color-darkmode-rule-bg: #9875ff;
-  --color-darkmode-tab-bg-active: #0bff18;
+  --color-darkmode-tab-bg-active: #0b0018;
   --color-darkmode-tab-bg-inactive: #231c32;
   --color-darkmode-tab-text: #26c3f2;
   --color-darkmode-tab-outline: #26c3f2;
@@ -85,7 +85,7 @@
   --color-lightmode-icon-secondary: #7413a4;
   --color-lightmode-icon-base: #1a1a1a;
   --color-lightmode-icon-accent: #7413a4;
-  --color-lightmode-footer-bg: #0bff18;
+  --color-lightmode-footer-bg: #0b0018;
   --color-lightmode-footer-title: #9773ff;
   --color-lightmode-footer-text: #ffffff;
   --color-lightmode-rule-bg: #9875ff;
@@ -1297,7 +1297,7 @@
   --color-icon-secondary: #7413a4;
   --color-icon-base: #1a1a1a;
   --color-icon-accent: #7413a4;
-  --color-footer-bg: #0bff18;
+  --color-footer-bg: #0b0018;
   --color-footer-title: #9773ff;
   --color-footer-text: #ffffff;
   --color-rule-bg: #9875ff;
@@ -1325,9 +1325,9 @@
 
 :root[data-theme='darkmode'] {
   --color-bg-navbar: #000000;
-  --color-bg-footer: #0bff18;
+  --color-bg-footer: #0b0018;
   --color-bg-main: #1b0a29;
-  --color-bg-dark: #0bff18;
+  --color-bg-dark: #0b0018;
   --color-bg-gray: #221c31;
   --color-bg-form: #ff0000;
   --color-bg-card: #ff0000;
@@ -1355,11 +1355,11 @@
   --color-icon-highlight: #26c3f2;
   --color-icon-base: #ffffff;
   --color-icon-accent: #b429fa;
-  --color-footer-bg: #0bff18;
+  --color-footer-bg: #0b0018;
   --color-footer-title: #9773ff;
   --color-footer-text: #ffffff;
   --color-rule-bg: #9875ff;
-  --color-tab-bg-active: #0bff18;
+  --color-tab-bg-active: #0b0018;
   --color-tab-bg-inactive: #231c32;
   --color-tab-text: #26c3f2;
   --color-tab-outline: #26c3f2;
