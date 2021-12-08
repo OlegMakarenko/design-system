@@ -4,20 +4,20 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 08 Dec 2021 10:37:35 GMT
+// Generated on Wed, 08 Dec 2021 10:39:25 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
     public static let darkmodeBgCard = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let darkmodeBgDark = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
-    public static let darkmodeBgFooter = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let darkmodeBgDark = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
+    public static let darkmodeBgFooter = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let darkmodeBgForm = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let darkmodeBgGray = UIColor(red: 0.133, green: 0.110, blue: 0.192, alpha: 1)
     public static let darkmodeBgMain = UIColor(red: 0.106, green: 0.039, blue: 0.161, alpha: 1)
     public static let darkmodeBgNavbar = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let darkmodeButtonBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let darkmodeButtonBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let darkmodeButtonBgDisabled = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
     public static let darkmodeButtonBgHover = UIColor(red: 0.035, green: 0.533, blue: 0.682, alpha: 1)
     public static let darkmodeButtonBgSecondary = UIColor(red: 0.824, green: 0.941, blue: 0.976, alpha: 1)
@@ -32,7 +32,7 @@ public enum StyleDictionaryColor {
     public static let darkmodeDataColor3 = UIColor(red: 0.000, green: 0.600, blue: 1.000, alpha: 1)
     public static let darkmodeDataColor4 = UIColor(red: 0.000, green: 0.702, blue: 1.000, alpha: 1)
     public static let darkmodeDataColor5 = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
-    public static let darkmodeFooterBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let darkmodeFooterBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let darkmodeFooterText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let darkmodeFooterTitle = UIColor(red: 0.592, green: 0.451, blue: 1.000, alpha: 1)
     public static let darkmodeFormAccent = UIColor(red: 0.455, green: 0.075, blue: 0.643, alpha: 1)
@@ -50,7 +50,7 @@ public enum StyleDictionaryColor {
     public static let darkmodeSemanticGood = UIColor(red: 0.702, green: 0.902, blue: 0.702, alpha: 1)
     public static let darkmodeSemanticInfo = UIColor(red: 0.620, green: 0.820, blue: 0.980, alpha: 1)
     public static let darkmodeSemanticNeutral = UIColor(red: 0.780, green: 0.808, blue: 0.820, alpha: 1)
-    public static let darkmodeTabBgActive = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let darkmodeTabBgActive = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let darkmodeTabBgInactive = UIColor(red: 0.137, green: 0.110, blue: 0.196, alpha: 1)
     public static let darkmodeTabOutline = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
     public static let darkmodeTabText = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
@@ -86,7 +86,7 @@ public enum StyleDictionaryColor {
     public static let lightmodeDataColor3 = UIColor(red: 0.000, green: 0.600, blue: 1.000, alpha: 1)
     public static let lightmodeDataColor4 = UIColor(red: 0.000, green: 0.702, blue: 1.000, alpha: 1)
     public static let lightmodeDataColor5 = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
-    public static let lightmodeFooterBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let lightmodeFooterBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
     public static let lightmodeFooterText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let lightmodeFooterTitle = UIColor(red: 0.592, green: 0.451, blue: 1.000, alpha: 1)
     public static let lightmodeFormAccent = UIColor(red: 0.455, green: 0.075, blue: 0.643, alpha: 1)
