@@ -4,20 +4,20 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 03 Dec 2021 11:52:07 GMT
+// Generated on Wed, 08 Dec 2021 10:37:35 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
     public static let colorDarkmodeBgCard = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let colorDarkmodeBgDark = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
-    public static let colorDarkmodeBgFooter = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeBgDark = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeBgFooter = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeBgForm = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let colorDarkmodeBgGray = UIColor(red: 0.133, green: 0.110, blue: 0.192, alpha: 1)
     public static let colorDarkmodeBgMain = UIColor(red: 0.106, green: 0.039, blue: 0.161, alpha: 1)
     public static let colorDarkmodeBgNavbar = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
-    public static let colorDarkmodeButtonBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeButtonBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeButtonBgDisabled = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
     public static let colorDarkmodeButtonBgHover = UIColor(red: 0.035, green: 0.533, blue: 0.682, alpha: 1)
     public static let colorDarkmodeButtonBgSecondary = UIColor(red: 0.824, green: 0.941, blue: 0.976, alpha: 1)
@@ -32,7 +32,7 @@ public class StyleDictionary {
     public static let colorDarkmodeDataColor3 = UIColor(red: 0.000, green: 0.600, blue: 1.000, alpha: 1)
     public static let colorDarkmodeDataColor4 = UIColor(red: 0.000, green: 0.702, blue: 1.000, alpha: 1)
     public static let colorDarkmodeDataColor5 = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
-    public static let colorDarkmodeFooterBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeFooterBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeFooterText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorDarkmodeFooterTitle = UIColor(red: 0.592, green: 0.451, blue: 1.000, alpha: 1)
     public static let colorDarkmodeFormAccent = UIColor(red: 0.455, green: 0.075, blue: 0.643, alpha: 1)
@@ -50,7 +50,7 @@ public class StyleDictionary {
     public static let colorDarkmodeSemanticGood = UIColor(red: 0.702, green: 0.902, blue: 0.702, alpha: 1)
     public static let colorDarkmodeSemanticInfo = UIColor(red: 0.620, green: 0.820, blue: 0.980, alpha: 1)
     public static let colorDarkmodeSemanticNeutral = UIColor(red: 0.780, green: 0.808, blue: 0.820, alpha: 1)
-    public static let colorDarkmodeTabBgActive = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
+    public static let colorDarkmodeTabBgActive = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
     public static let colorDarkmodeTabBgInactive = UIColor(red: 0.137, green: 0.110, blue: 0.196, alpha: 1)
     public static let colorDarkmodeTabOutline = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
     public static let colorDarkmodeTabText = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
@@ -86,7 +86,7 @@ public class StyleDictionary {
     public static let colorLightmodeDataColor3 = UIColor(red: 0.000, green: 0.600, blue: 1.000, alpha: 1)
     public static let colorLightmodeDataColor4 = UIColor(red: 0.000, green: 0.702, blue: 1.000, alpha: 1)
     public static let colorLightmodeDataColor5 = UIColor(red: 0.149, green: 0.765, blue: 0.949, alpha: 1)
-    public static let colorLightmodeFooterBg = UIColor(red: 0.043, green: 0.000, blue: 0.094, alpha: 1)
+    public static let colorLightmodeFooterBg = UIColor(red: 0.043, green: 1.000, blue: 0.094, alpha: 1)
     public static let colorLightmodeFooterText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorLightmodeFooterTitle = UIColor(red: 0.592, green: 0.451, blue: 1.000, alpha: 1)
     public static let colorLightmodeFormAccent = UIColor(red: 0.455, green: 0.075, blue: 0.643, alpha: 1)
@@ -972,9 +972,9 @@ public class StyleDictionary {
     public static let typographyWebLargeButtonUnboundedSmallLineHeight = 14.4
     public static let typographyWebLargeButtonUnboundedSmallParagraphIndent = 0
     public static let typographyWebLargeButtonUnboundedSmallParagraphSpacing = 0
-    public static let typographyWebLargeButtonUnboundedSmallTextCase = none
+    public static let typographyWebLargeButtonUnboundedSmallTextCase = uppercase
     public static let typographyWebLargeButtonUnboundedSmallTextDecoration = none
-    public static let typographyWebLargeButtonUnboundedTextCase = none
+    public static let typographyWebLargeButtonUnboundedTextCase = uppercase
     public static let typographyWebLargeButtonUnboundedTextDecoration = none
     public static let typographyWebLargeCaptionFontFamily = Carbon
     public static let typographyWebLargeCaptionFontSize = 18
@@ -996,7 +996,7 @@ public class StyleDictionary {
     public static let typographyWebLargeH1LineHeight = 14.4
     public static let typographyWebLargeH1ParagraphIndent = 0
     public static let typographyWebLargeH1ParagraphSpacing = 0
-    public static let typographyWebLargeH1TextCase = none
+    public static let typographyWebLargeH1TextCase = uppercase
     public static let typographyWebLargeH1TextDecoration = none
     public static let typographyWebLargeH2FontFamily = Rajdhani
     public static let typographyWebLargeH2FontSize = 54
@@ -1021,12 +1021,12 @@ public class StyleDictionary {
     public static let typographyWebLargeH3TextCase = uppercase
     public static let typographyWebLargeH3TextDecoration = none
     public static let typographyWebLargeH4FontFamily = Rajdhani
-    public static let typographyWebLargeH4FontSize = 24
+    public static let typographyWebLargeH4FontSize = 40
     public static let typographyWebLargeH4FontStretch = normal
     public static let typographyWebLargeH4FontStyle = normal
     public static let typographyWebLargeH4FontWeight = 700
     public static let typographyWebLargeH4LetterSpacing = 0
-    public static let typographyWebLargeH4LineHeight = 24
+    public static let typographyWebLargeH4LineHeight = 56
     public static let typographyWebLargeH4ParagraphIndent = 0
     public static let typographyWebLargeH4ParagraphSpacing = 0
     public static let typographyWebLargeH4TextCase = uppercase
@@ -1040,7 +1040,7 @@ public class StyleDictionary {
     public static let typographyWebLargeLabelLineHeight = 21.6
     public static let typographyWebLargeLabelParagraphIndent = 0
     public static let typographyWebLargeLabelParagraphSpacing = 0
-    public static let typographyWebLargeLabelTextCase = none
+    public static let typographyWebLargeLabelTextCase = uppercase
     public static let typographyWebLargeLabelTextDecoration = none
     public static let typographyWebLargeLinkFontFamily = Protipo
     public static let typographyWebLargeLinkFontSize = 18
@@ -1073,7 +1073,7 @@ public class StyleDictionary {
     public static let typographyWebLargeTitleSuperLineHeight = 14.4
     public static let typographyWebLargeTitleSuperParagraphIndent = 0
     public static let typographyWebLargeTitleSuperParagraphSpacing = 0
-    public static let typographyWebLargeTitleSuperTextCase = none
+    public static let typographyWebLargeTitleSuperTextCase = uppercase
     public static let typographyWebLargeTitleSuperTextDecoration = none
     public static let typographyWebLargeTitleUltraFontFamily = Roboto
     public static let typographyWebLargeTitleUltraFontSize = 12
@@ -1084,7 +1084,7 @@ public class StyleDictionary {
     public static let typographyWebLargeTitleUltraLineHeight = 14.4
     public static let typographyWebLargeTitleUltraParagraphIndent = 0
     public static let typographyWebLargeTitleUltraParagraphSpacing = 0
-    public static let typographyWebLargeTitleUltraTextCase = none
+    public static let typographyWebLargeTitleUltraTextCase = uppercase
     public static let typographyWebLargeTitleUltraTextDecoration = none
     public static let typographyWebMobileBodyBoldFontFamily = Protipo
     public static let typographyWebMobileBodyBoldFontSize = 18
@@ -1131,12 +1131,12 @@ public class StyleDictionary {
     public static let typographyWebMobileBodyTextCase = none
     public static let typographyWebMobileBodyTextDecoration = none
     public static let typographyWebMobileButtonBoundedFontFamily = Rajdhani
-    public static let typographyWebMobileButtonBoundedFontSize = 23
+    public static let typographyWebMobileButtonBoundedFontSize = 15
     public static let typographyWebMobileButtonBoundedFontStretch = normal
     public static let typographyWebMobileButtonBoundedFontStyle = normal
     public static let typographyWebMobileButtonBoundedFontWeight = 700
-    public static let typographyWebMobileButtonBoundedLetterSpacing = 0.46
-    public static let typographyWebMobileButtonBoundedLineHeight = 23
+    public static let typographyWebMobileButtonBoundedLetterSpacing = 0.3
+    public static let typographyWebMobileButtonBoundedLineHeight = 15
     public static let typographyWebMobileButtonBoundedParagraphIndent = 0
     public static let typographyWebMobileButtonBoundedParagraphSpacing = 0
     public static let typographyWebMobileButtonBoundedTextCase = uppercase
@@ -1159,9 +1159,9 @@ public class StyleDictionary {
     public static let typographyWebMobileButtonUnboundedSmallLineHeight = 14.4
     public static let typographyWebMobileButtonUnboundedSmallParagraphIndent = 0
     public static let typographyWebMobileButtonUnboundedSmallParagraphSpacing = 0
-    public static let typographyWebMobileButtonUnboundedSmallTextCase = none
+    public static let typographyWebMobileButtonUnboundedSmallTextCase = uppercase
     public static let typographyWebMobileButtonUnboundedSmallTextDecoration = none
-    public static let typographyWebMobileButtonUnboundedTextCase = none
+    public static let typographyWebMobileButtonUnboundedTextCase = uppercase
     public static let typographyWebMobileButtonUnboundedTextDecoration = none
     public static let typographyWebMobileCaptionFontFamily = Carbon
     public static let typographyWebMobileCaptionFontSize = 18
@@ -1183,7 +1183,7 @@ public class StyleDictionary {
     public static let typographyWebMobileH1LineHeight = 14.4
     public static let typographyWebMobileH1ParagraphIndent = 0
     public static let typographyWebMobileH1ParagraphSpacing = 0
-    public static let typographyWebMobileH1TextCase = none
+    public static let typographyWebMobileH1TextCase = uppercase
     public static let typographyWebMobileH1TextDecoration = none
     public static let typographyWebMobileH2FontFamily = Rajdhani
     public static let typographyWebMobileH2FontSize = 27
@@ -1227,7 +1227,7 @@ public class StyleDictionary {
     public static let typographyWebMobileLabelLineHeight = 21.6
     public static let typographyWebMobileLabelParagraphIndent = 0
     public static let typographyWebMobileLabelParagraphSpacing = 0
-    public static let typographyWebMobileLabelTextCase = none
+    public static let typographyWebMobileLabelTextCase = uppercase
     public static let typographyWebMobileLabelTextDecoration = none
     public static let typographyWebMobileLinkFontFamily = Protipo
     public static let typographyWebMobileLinkFontSize = 18
@@ -1260,7 +1260,7 @@ public class StyleDictionary {
     public static let typographyWebMobileTitleSuperLineHeight = 14.4
     public static let typographyWebMobileTitleSuperParagraphIndent = 0
     public static let typographyWebMobileTitleSuperParagraphSpacing = 0
-    public static let typographyWebMobileTitleSuperTextCase = none
+    public static let typographyWebMobileTitleSuperTextCase = uppercase
     public static let typographyWebMobileTitleSuperTextDecoration = none
     public static let typographyWebMobileTitleUltraFontFamily = Roboto
     public static let typographyWebMobileTitleUltraFontSize = 12
@@ -1271,6 +1271,6 @@ public class StyleDictionary {
     public static let typographyWebMobileTitleUltraLineHeight = 14.4
     public static let typographyWebMobileTitleUltraParagraphIndent = 0
     public static let typographyWebMobileTitleUltraParagraphSpacing = 0
-    public static let typographyWebMobileTitleUltraTextCase = none
+    public static let typographyWebMobileTitleUltraTextCase = uppercase
     public static let typographyWebMobileTitleUltraTextDecoration = none
 }

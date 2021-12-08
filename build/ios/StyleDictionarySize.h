@@ -3,7 +3,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 03 Dec 2021 11:52:07 GMT
+// Generated on Wed, 08 Dec 2021 10:37:35 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -14,6 +14,7 @@ extern float const TypographyWebLargeTitleSuperFontWeight;
 extern float const TypographyWebLargeH1FontWeight;
 extern float const TypographyWebLargeH2FontWeight;
 extern float const TypographyWebLargeH3FontWeight;
+extern float const TypographyWebLargeH4FontWeight;
 extern float const TypographyWebLargeSubtitleFontWeight;
 extern float const TypographyWebLargeBodyFontWeight;
 extern float const TypographyWebLargeBodyBoldFontWeight;
@@ -25,12 +26,12 @@ extern float const TypographyWebLargeCaptionFontWeight;
 extern float const TypographyWebLargeButtonUnboundedFontWeight;
 extern float const TypographyWebLargeBodyHeroFontWeight;
 extern float const TypographyWebLargeButtonUnboundedSmallFontWeight;
-extern float const TypographyWebLargeH4FontWeight;
 extern float const TypographyWebDesktopTitleUltraFontWeight;
 extern float const TypographyWebDesktopTitleSuperFontWeight;
 extern float const TypographyWebDesktopH1FontWeight;
 extern float const TypographyWebDesktopH2FontWeight;
 extern float const TypographyWebDesktopH3FontWeight;
+extern float const TypographyWebDesktopH4FontWeight;
 extern float const TypographyWebDesktopSubtitleFontWeight;
 extern float const TypographyWebDesktopBodyHeroFontWeight;
 extern float const TypographyWebDesktopBodyFontWeight;
@@ -42,7 +43,6 @@ extern float const TypographyWebDesktopCaptionFontWeight;
 extern float const TypographyWebDesktopButtonBoundedFontWeight;
 extern float const TypographyWebDesktopButtonUnboundedFontWeight;
 extern float const TypographyWebDesktopButtonUnboundedSmallFontWeight;
-extern float const TypographyWebDesktopH4FontWeight;
 extern float const TypographyWebMobileTitleUltraFontWeight;
 extern float const TypographyWebMobileTitleSuperFontWeight;
 extern float const TypographyWebMobileH1FontWeight;

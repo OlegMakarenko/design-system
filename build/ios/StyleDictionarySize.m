@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 03 Dec 2021 11:52:07 GMT
+// Generated on Wed, 08 Dec 2021 10:37:35 GMT
 
 
 #import "StyleDictionarySize.h"
@@ -15,6 +15,7 @@ float const TypographyWebLargeTitleSuperFontWeight = 400;
 float const TypographyWebLargeH1FontWeight = 400;
 float const TypographyWebLargeH2FontWeight = 700;
 float const TypographyWebLargeH3FontWeight = 700;
+float const TypographyWebLargeH4FontWeight = 700;
 float const TypographyWebLargeSubtitleFontWeight = 400;
 float const TypographyWebLargeBodyFontWeight = 400;
 float const TypographyWebLargeBodyBoldFontWeight = 700;
@@ -26,12 +27,12 @@ float const TypographyWebLargeCaptionFontWeight = 400;
 float const TypographyWebLargeButtonUnboundedFontWeight = 700;
 float const TypographyWebLargeBodyHeroFontWeight = 400;
 float const TypographyWebLargeButtonUnboundedSmallFontWeight = 700;
-float const TypographyWebLargeH4FontWeight = 700;
 float const TypographyWebDesktopTitleUltraFontWeight = 400;
 float const TypographyWebDesktopTitleSuperFontWeight = 400;
 float const TypographyWebDesktopH1FontWeight = 400;
 float const TypographyWebDesktopH2FontWeight = 700;
 float const TypographyWebDesktopH3FontWeight = 700;
+float const TypographyWebDesktopH4FontWeight = 700;
 float const TypographyWebDesktopSubtitleFontWeight = 400;
 float const TypographyWebDesktopBodyHeroFontWeight = 400;
 float const TypographyWebDesktopBodyFontWeight = 400;
@@ -43,7 +44,6 @@ float const TypographyWebDesktopCaptionFontWeight = 400;
 float const TypographyWebDesktopButtonBoundedFontWeight = 700;
 float const TypographyWebDesktopButtonUnboundedFontWeight = 700;
 float const TypographyWebDesktopButtonUnboundedSmallFontWeight = 700;
-float const TypographyWebDesktopH4FontWeight = 700;
 float const TypographyWebMobileTitleUltraFontWeight = 400;
 float const TypographyWebMobileTitleSuperFontWeight = 400;
 float const TypographyWebMobileH1FontWeight = 400;
