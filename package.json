@@ -3,14 +3,12 @@
     "version": "0.1.1",
     "description": "Symbol Design System",
     "main": "index.js",
-    "dependencies": {
-        "style-dictionary": "^3"
-    },
     "devDependencies": {
         "eslint": "^7.15.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-prettier": "^3.2.0",
-        "prettier": "^1.19.1"
+        "prettier": "^1.19.1",
+        "style-dictionary": "^3"
     },
     "scripts": {
         "transform-tokens": "node ./scripts/transformTokens.js",
