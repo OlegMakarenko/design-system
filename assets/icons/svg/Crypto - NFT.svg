@@ -1,0 +1,18 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12.59" r="9.75" stroke="white" stroke-width="1.5"/>
+<path d="M7 14.59V10.59L9.64 14.59V10.59" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.3999 14.59V12.2566M14.0399 10.59H11.3999V12.2566M11.3999 12.2566H13.5999" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.3599 10.59H16.6799M17.9999 10.59H16.6799M16.6799 10.59V14.59" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<circle r="1" transform="matrix(-1 0 0 1 16 6.58997)" stroke="white"/>
+<circle r="1" transform="matrix(-1 0 0 1 12 5.58997)" stroke="white"/>
+<circle r="1" transform="matrix(-1 0 0 1 8 6.58997)" stroke="white"/>
+<path d="M8 7.58997V8.58997L8.5 9.08997" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 7.58997V8.58997L15.5 9.08997" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 6.58997V8.58997" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<circle r="1" transform="matrix(1 0 0 -1 8 18.59)" stroke="white"/>
+<circle r="1" transform="matrix(1 0 0 -1 12 19.59)" stroke="white"/>
+<circle r="1" transform="matrix(1 0 0 -1 16 18.59)" stroke="white"/>
+<path d="M16 17.59V16.59L15.5 16.09" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 17.59V16.59L8.5 16.09" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18.59V16.59" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
