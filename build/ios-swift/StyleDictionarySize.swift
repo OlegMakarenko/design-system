@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 08 Dec 2021 10:39:25 GMT
+// Generated on Mon, 10 Jan 2022 15:16:19 GMT
 
 
 import UIKit
@@ -14,7 +14,9 @@ public enum StyleDictionarySize {
     public static let androidBodyFontWeight = 400
     public static let androidBodyHeroFontWeight = 400
     public static let androidBodySmallFontWeight = 400
-    public static let androidButtonBoundedFontWeight = 400
+    public static let androidButtonLargeFontWeight = 700
+    public static let androidButtonMediumFontWeight = 700
+    public static let androidButtonSmallFontWeight = 700
     public static let androidButtonUnboundedFontWeight = 700
     public static let androidButtonUnboundedSmallFontWeight = 700
     public static let androidCaptionFontWeight = 400
@@ -24,27 +26,15 @@ public enum StyleDictionarySize {
     public static let androidLabelFontWeight = 700
     public static let androidLinkFontWeight = 400
     public static let androidSubtitleFontWeight = 400
-    public static let depreciatedBodyBoldFontWeight = 700
-    public static let depreciatedBodyFontWeight = 400
-    public static let depreciatedBodyHeroFontWeight = 400
-    public static let depreciatedBodySmallFontWeight = 400
-    public static let depreciatedButtonBoundedFontWeight = 700
-    public static let depreciatedButtonUnboundedFontWeight = 700
-    public static let depreciatedCaptionFontWeight = 400
-    public static let depreciatedH1FontWeight = 700
-    public static let depreciatedH2FontWeight = 700
-    public static let depreciatedH3FontWeight = 700
-    public static let depreciatedLabelFontWeight = 700
-    public static let depreciatedLinkFontWeight = 400
-    public static let depreciatedSubtitleFontWeight = 500
-    public static let depreciatedTitleSuperFontWeight = 700
-    public static let depreciatedTitleUltraFontWeight = 700
     public static let iosBodyBoldFontWeight = 700
     public static let iosBodyFontWeight = 400
     public static let iosBodyHeroFontWeight = 400
     public static let iosBodySecondaryFontWeight = 400
     public static let iosBodySmallFontWeight = 400
     public static let iosButtonBoundedFontWeight = 400
+    public static let iosButtonLargeFontWeight = 700
+    public static let iosButtonMediumFontWeight = 700
+    public static let iosButtonSmallFontWeight = 700
     public static let iosButtonUnboundedFontWeight = 700
     public static let iosButtonUnboundedSmallFontWeight = 700
     public static let iosCaptionFontWeight = 400
@@ -58,7 +48,9 @@ public enum StyleDictionarySize {
     public static let webDesktopBodyFontWeight = 400
     public static let webDesktopBodyHeroFontWeight = 400
     public static let webDesktopBodySmallFontWeight = 400
-    public static let webDesktopButtonBoundedFontWeight = 700
+    public static let webDesktopButtonLargeFontWeight = 700
+    public static let webDesktopButtonMediumFontWeight = 700
+    public static let webDesktopButtonSmallFontWeight = 700
     public static let webDesktopButtonUnboundedFontWeight = 700
     public static let webDesktopButtonUnboundedSmallFontWeight = 700
     public static let webDesktopCaptionFontWeight = 400
@@ -75,7 +67,9 @@ public enum StyleDictionarySize {
     public static let webLargeBodyFontWeight = 400
     public static let webLargeBodyHeroFontWeight = 400
     public static let webLargeBodySmallFontWeight = 400
-    public static let webLargeButtonBoundedFontWeight = 700
+    public static let webLargeButtonLargeFontWeight = 700
+    public static let webLargeButtonMediumFontWeight = 700
+    public static let webLargeButtonSmallFontWeight = 700
     public static let webLargeButtonUnboundedFontWeight = 700
     public static let webLargeButtonUnboundedSmallFontWeight = 700
     public static let webLargeCaptionFontWeight = 400
@@ -92,7 +86,9 @@ public enum StyleDictionarySize {
     public static let webMobileBodyFontWeight = 400
     public static let webMobileBodyHeroFontWeight = 400
     public static let webMobileBodySmallFontWeight = 400
-    public static let webMobileButtonBoundedFontWeight = 700
+    public static let webMobileButtonLargeFontWeight = 700
+    public static let webMobileButtonMediumFontWeight = 700
+    public static let webMobileButtonSmallFontWeight = 700
     public static let webMobileButtonUnboundedFontWeight = 700
     public static let webMobileButtonUnboundedSmallFontWeight = 700
     public static let webMobileCaptionFontWeight = 400

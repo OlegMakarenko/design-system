@@ -3,7 +3,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 08 Dec 2021 10:39:25 GMT
+// Generated on Mon, 10 Jan 2022 15:16:19 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -16,15 +16,17 @@ extern float const TypographyWebLargeH2FontWeight;
 extern float const TypographyWebLargeH3FontWeight;
 extern float const TypographyWebLargeH4FontWeight;
 extern float const TypographyWebLargeSubtitleFontWeight;
+extern float const TypographyWebLargeBodyHeroFontWeight;
 extern float const TypographyWebLargeBodyFontWeight;
 extern float const TypographyWebLargeBodyBoldFontWeight;
-extern float const TypographyWebLargeLinkFontWeight;
 extern float const TypographyWebLargeBodySmallFontWeight;
+extern float const TypographyWebLargeLinkFontWeight;
 extern float const TypographyWebLargeLabelFontWeight;
-extern float const TypographyWebLargeButtonBoundedFontWeight;
 extern float const TypographyWebLargeCaptionFontWeight;
+extern float const TypographyWebLargeButtonLargeFontWeight;
+extern float const TypographyWebLargeButtonMediumFontWeight;
+extern float const TypographyWebLargeButtonSmallFontWeight;
 extern float const TypographyWebLargeButtonUnboundedFontWeight;
-extern float const TypographyWebLargeBodyHeroFontWeight;
 extern float const TypographyWebLargeButtonUnboundedSmallFontWeight;
 extern float const TypographyWebDesktopTitleUltraFontWeight;
 extern float const TypographyWebDesktopTitleSuperFontWeight;
@@ -40,7 +42,9 @@ extern float const TypographyWebDesktopBodySmallFontWeight;
 extern float const TypographyWebDesktopLinkFontWeight;
 extern float const TypographyWebDesktopLabelFontWeight;
 extern float const TypographyWebDesktopCaptionFontWeight;
-extern float const TypographyWebDesktopButtonBoundedFontWeight;
+extern float const TypographyWebDesktopButtonLargeFontWeight;
+extern float const TypographyWebDesktopButtonMediumFontWeight;
+extern float const TypographyWebDesktopButtonSmallFontWeight;
 extern float const TypographyWebDesktopButtonUnboundedFontWeight;
 extern float const TypographyWebDesktopButtonUnboundedSmallFontWeight;
 extern float const TypographyWebMobileTitleUltraFontWeight;
@@ -57,7 +61,9 @@ extern float const TypographyWebMobileBodySmallFontWeight;
 extern float const TypographyWebMobileLinkFontWeight;
 extern float const TypographyWebMobileLabelFontWeight;
 extern float const TypographyWebMobileCaptionFontWeight;
-extern float const TypographyWebMobileButtonBoundedFontWeight;
+extern float const TypographyWebMobileButtonLargeFontWeight;
+extern float const TypographyWebMobileButtonMediumFontWeight;
+extern float const TypographyWebMobileButtonSmallFontWeight;
 extern float const TypographyWebMobileButtonUnboundedFontWeight;
 extern float const TypographyWebMobileButtonUnboundedSmallFontWeight;
 extern float const TypographyIosH1FontWeight;
@@ -72,35 +78,25 @@ extern float const TypographyIosBodySmallFontWeight;
 extern float const TypographyIosLinkFontWeight;
 extern float const TypographyIosLabelFontWeight;
 extern float const TypographyIosCaptionFontWeight;
-extern float const TypographyIosButtonBoundedFontWeight;
+extern float const TypographyIosButtonLargeFontWeight;
+extern float const TypographyIosButtonMediumFontWeight;
+extern float const TypographyIosButtonSmallFontWeight;
 extern float const TypographyIosButtonUnboundedFontWeight;
 extern float const TypographyIosButtonUnboundedSmallFontWeight;
+extern float const TypographyIosButtonBoundedFontWeight;
 extern float const TypographyAndroidH1FontWeight;
 extern float const TypographyAndroidH2FontWeight;
 extern float const TypographyAndroidH3FontWeight;
 extern float const TypographyAndroidSubtitleFontWeight;
+extern float const TypographyAndroidBodyHeroFontWeight;
 extern float const TypographyAndroidBodyFontWeight;
 extern float const TypographyAndroidBodyBoldFontWeight;
-extern float const TypographyAndroidBodyHeroFontWeight;
 extern float const TypographyAndroidBodySmallFontWeight;
-extern float const TypographyAndroidButtonBoundedFontWeight;
-extern float const TypographyAndroidButtonUnboundedFontWeight;
 extern float const TypographyAndroidLinkFontWeight;
 extern float const TypographyAndroidLabelFontWeight;
 extern float const TypographyAndroidCaptionFontWeight;
+extern float const TypographyAndroidButtonLargeFontWeight;
+extern float const TypographyAndroidButtonMediumFontWeight;
+extern float const TypographyAndroidButtonSmallFontWeight;
+extern float const TypographyAndroidButtonUnboundedFontWeight;
 extern float const TypographyAndroidButtonUnboundedSmallFontWeight;
-extern float const TypographyDepreciatedTitleUltraFontWeight;
-extern float const TypographyDepreciatedTitleSuperFontWeight;
-extern float const TypographyDepreciatedH1FontWeight;
-extern float const TypographyDepreciatedH2FontWeight;
-extern float const TypographyDepreciatedH3FontWeight;
-extern float const TypographyDepreciatedSubtitleFontWeight;
-extern float const TypographyDepreciatedBodyHeroFontWeight;
-extern float const TypographyDepreciatedBodyFontWeight;
-extern float const TypographyDepreciatedBodyBoldFontWeight;
-extern float const TypographyDepreciatedBodySmallFontWeight;
-extern float const TypographyDepreciatedLinkFontWeight;
-extern float const TypographyDepreciatedLabelFontWeight;
-extern float const TypographyDepreciatedCaptionFontWeight;
-extern float const TypographyDepreciatedButtonBoundedFontWeight;
-extern float const TypographyDepreciatedButtonUnboundedFontWeight;
