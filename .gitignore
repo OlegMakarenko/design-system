@@ -1,2 +1,4 @@
 node_modules/
 .DS_Store
+darkmode-tokens.json
+lightmode-tokens.json
